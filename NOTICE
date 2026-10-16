@@ -1,0 +1,21 @@
+# Third-party content and licences
+
+The source code in this repository is MIT licensed (see `LICENSE`). **That
+licence does not cover everything in here.** Several directories carry text,
+fonts or documents produced by other people, under their own terms. If you fork,
+redistribute or deploy this project, these are the parts you need to read first.
+
+| Path | What it is | Terms |
+| --- | --- | --- |
+| `Written/English/`, and the same text inside `Written/search-index-en.json` and every page under `surah/` | ClearQuran (Allah Edition), English translation by Talal Itani | CC BY-ND 4.0 plus the translator's additional permissions. **Credit required** and **no wording may be changed, added or removed.** See `Written/English/LICENSE.md`. |
+| `fonts/ScheherazadeNew-Regular.woff2` | Scheherazade New, by SIL International | SIL Open Font Licence 1.1, see `fonts/OFL.txt`. Reserved Font Name applies: a modified version must be renamed. |
+| `Written/<Rewayah>/`, `Written/Ajzaa/` | The Arabic Quranic text in eight rewayat, and the 30-juz reading files | Prepared by the maintainer. No third-party terms attach. |
+
+Audio is not in this repository. Recitations stream from mp3quran.net
+(whole surah) and everyayah.com (per ayah); both are third-party services with
+their own terms, and nothing is cached or rehosted here.
+
+The required attribution for the English translation is rendered in the app
+itself - under every English surah, on the English selection screen, on each
+static surah page, and appended when a reader copies a verse. **If you fork this
+project, keep it.** Removing it breaks the licence the text is published under.

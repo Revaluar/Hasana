@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <meta name="description" data-lang-key="metaDescription" content="Hasana - a modest Quran player and reader with multiple recitations, rewayah readings, and an English translation.">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f2e7">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131c17">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231c5a42'/%3E%3Cg transform='translate(16,16) scale(2.833)'%3E%3Cpath d='M5 20V11.5C5 7.9 8.1 5 12 5S19 7.9 19 11.5V20' fill='none' stroke='%23f6f1e0' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M9 20v-6a3 3 0 0 1 6 0v6' fill='none' stroke='%23f6f1e0' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3C/svg%3E">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+
+    <title data-lang-key="pageTitle">Hasana - Quran Player and Reader</title>
+
+    <!-- Canonical + hreflang -->
+    <link rel="canonical" href="https://hasana.ca/">
+    <link rel="alternate" hreflang="en" href="https://hasana.ca/?lang=en">
+    <link rel="alternate" hreflang="ar" href="https://hasana.ca/?lang=ar">
+    <link rel="alternate" hreflang="x-default" href="https://hasana.ca/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Hasana">
+    <meta property="og:title" content="Hasana - Quran Player and Reader">
+    <meta property="og:description" content="Hasana - a modest Quran player and reader with multiple recitations, rewayah readings, and an English translation.">
+    <meta property="og:url" content="https://hasana.ca/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="ar_AR">
+    <meta property="og:image" content="https://hasana.ca/icons/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hasana - Quran Player and Reader">
+    <meta name="twitter:description" content="Hasana - a modest Quran player and reader with multiple recitations, rewayah readings, and an English translation.">
+    <meta name="twitter:image" content="https://hasana.ca/icons/og-image.png">
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "name": "Hasana",
+                "url": "https://hasana.ca/",
+                "inLanguage": ["en", "ar"]
+            },
+            {
+                "@type": "WebApplication",
+                "name": "Hasana - Quran Player and Reader",
+                "url": "https://hasana.ca/",
+                "image": "https://hasana.ca/icons/og-image.png",
+                "applicationCategory": "EducationApplication",
+                "operatingSystem": "Any",
+                "inLanguage": ["en", "ar"],
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD"
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- Connection hints -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://server6.mp3quran.net">
+    <link rel="dns-prefetch" href="https://server7.mp3quran.net">
+    <link rel="dns-prefetch" href="https://server8.mp3quran.net">
+    <link rel="dns-prefetch" href="https://server10.mp3quran.net">
+    <link rel="dns-prefetch" href="https://server11.mp3quran.net">
+    <link rel="dns-prefetch" href="https://server12.mp3quran.net">
+    <link rel="dns-prefetch" href="https://server13.mp3quran.net">
+
+    <script>
+        (function () {
+            try {
+                var t = localStorage.getItem('hasana-theme');
+                if (t === 'light' || t === 'dark') {
+                    document.documentElement.setAttribute('data-theme', t);
+                }
+            } catch (e) { /* storage unavailable */ }
+        })();
+    </script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Newsreader:opsz,wght@6..72,400..600&family=Schibsted+Grotesk:wght@400..600&display=swap">
+    <link rel="stylesheet" href="style.7a976259df.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content"><span data-lang-key="skipLink">Skip to content</span></a>
+    <div class="app-container">
+        <div class="main-content">
+            <header class="site-header">
+                <div class="brand">
+                    <span class="brand-mark" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 20V11.5C5 7.9 8.1 5 12 5s7 2.9 7 6.5V20"/>
+                            <path d="M9 20v-6a3 3 0 0 1 6 0v6"/>
+                        </svg>
+                    </span>
+                    <h1 data-lang-key="title">Quran Player and Reader</h1>
+                </div>
+                <div class="header-actions">
+                    <button id="theme-toggle" class="theme-toggle" type="button" data-lang-aria-label="themeToggle" aria-label="Toggle color theme" title="Toggle light / dark mode">
+                        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+                            <circle cx="12" cy="12" r="4.25"/>
+                            <path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.55 1.55M17.15 17.15l1.55 1.55M18.7 5.3l-1.55 1.55M6.85 17.15l-1.55 1.55"/>
+                        </svg>
+                        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M20.4 14.2A8.5 8.5 0 0 1 9.8 3.6a8.5 8.5 0 1 0 10.6 10.6z"/>
+                        </svg>
+                    </button>
+                    <div class="lang-toggle">
+                        <button class="lang-button" data-lang="en">EN</button>
+                        <button class="lang-button" data-lang="ar">ع</button>
+                    </div>
+                </div>
+            </header>
+
+            <main id="main-content" tabindex="-1">
+                <div class="section-toggle">
+                    <button class="nav-button active" data-section="audible-section">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M11.5 5.5 7 9H3.5v6H7l4.5 3.5z"/>
+                            <path d="M15.5 9a4.2 4.2 0 0 1 0 6"/>
+                            <path d="M18.5 6.8a7.6 7.6 0 0 1 0 10.4"/>
+                        </svg>
+                        <span data-lang-key="audible">Audible</span>
+                    </button>
+                    <button class="nav-button" data-section="readable-section">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M12 6.2C10.4 4.6 8 3.9 5.6 3.9c-1.4 0-2.3.3-3.1.8v13.6c.8-.5 1.7-.8 3.1-.8 2.4 0 4.8.7 6.4 2.3 1.6-1.6 4-2.3 6.4-2.3 1.4 0 2.3.3 3.1.8V4.7c-.8-.5-1.7-.8-3.1-.8-2.4 0-4.8.7-6.4 2.3z"/>
+                            <path d="M12 6.2v13.6"/>
+                        </svg>
+                        <span data-lang-key="readable">Readable</span>
+                    </button>
+                    <button class="nav-button" data-section="search-section">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="10.5" cy="10.5" r="6"/>
+                            <path d="m15.5 15.5 4.5 4.5"/>
+                        </svg>
+                        <span data-lang-key="searchSection">Search</span>
+                    </button>
+                </div>
+
+                <section id="audible-section" class="content-section">
+                    <div class="selectors">
+                        <div class="selector-container reciter-selector">
+                            <label for="reciter-select" data-lang-key="selectReciter">Select Reciter:</label>
+                            <select id="reciter-select">
+                                <!-- Options will be populated by script.js -->
+                            </select>
+                        </div>
+                        <div class="selector-container surah-selector">
+                            <label for="surah-select" data-lang-key="selectSurah">Select Surah:</label>
+                            <select id="surah-select">
+                                <!-- Options will be populated by script.js -->
+                            </select>
+                        </div>
+                    </div>
+                    <div class="audio-player-container">
+                        <div class="skip-buttons skip-backward-group">
+                            <button id="skip-backward" data-lang-aria-label="skipBackward" class="skip-button" aria-label="Skip Backward 10 seconds" title="Back 10 seconds">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M10.6 5 4.4 11.9 10.6 18.8zM17.9 5l-6.2 6.9 6.2 6.9z"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <audio id="audio-player" controls preload="none" data-lang-aria-label="audioPlayerLabel" aria-label="Audio player">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <div class="skip-buttons skip-forward-group">
+                            <button id="skip-forward" data-lang-aria-label="skipForward" class="skip-button" aria-label="Skip Forward 10 seconds" title="Forward 10 seconds">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M13.4 5l6.2 6.9-6.2 6.9zM6.1 5l6.2 6.9-6.2 6.9z"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="audio-toolbar">
+                            <label class="speed-control">
+                                <span class="toolbar-label" data-lang-key="speedLabel">Speed</span>
+                                <select id="speed-select">
+                                    <option value="0.75">0.75x</option>
+                                    <option value="1" selected>1x</option>
+                                    <option value="1.25">1.25x</option>
+                                    <option value="1.5">1.5x</option>
+                                </select>
+                            </label>
+                            <button id="loop-toggle" class="loop-toggle" type="button" aria-pressed="false">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M17 2.5 21 6.5 17 10.5"/>
+                                    <path d="M3 11.5v-2a4 4 0 0 1 4-4h14"/>
+                                    <path d="M7 21.5 3 17.5 7 13.5"/>
+                                    <path d="M21 12.5v2a4 4 0 0 1-4 4H3"/>
+                                </svg>
+                                <span data-lang-key="loopToggle">Loop</span>
+                            </button>
+                            <label class="sleep-control">
+                                <span class="toolbar-label" data-lang-key="sleepLabel">Sleep</span>
+                                <select id="sleep-select">
+                                    <option value="" selected data-lang-key="sleepOff">Off</option>
+                                    <option value="10" data-lang-key="sleep10">10 min</option>
+                                    <option value="20" data-lang-key="sleep20">20 min</option>
+                                    <option value="30" data-lang-key="sleep30">30 min</option>
+                                    <option value="60" data-lang-key="sleep60">60 min</option>
+                                    <option value="surah" data-lang-key="sleepSurahEnd">End of surah</option>
+                                </select>
+                            </label>
+                            <span id="sleep-status" class="sleep-status" role="status"></span>
+                            <a id="download-audio" class="download-audio hidden" download data-lang-aria-label="downloadAudioLabel" aria-label="Download current surah audio">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M12 3v12"/>
+                                    <path d="m7 10 5 5 5-5"/>
+                                    <path d="M4 20h16"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div id="audio-error" class="audio-error hidden" role="alert"></div>
+                        <div id="audio-resume-hint" class="audio-resume-hint hidden" role="status">
+                            <span id="audio-resume-text"></span>
+                            <button id="audio-resume-button" type="button" data-lang-key="audioResume">Resume</button>
+                        </div>
+                    </div>
+
+                    <details class="shortcuts-disclosure">
+                        <summary data-lang-key="shortcutsTitle">Keyboard shortcuts</summary>
+                        <ul class="shortcuts-list">
+                            <li data-lang-key="shortcutSpace">Space: play / pause</li>
+                            <li data-lang-key="shortcutSeek">Arrow Left / Arrow Right: back / forward 10 seconds</li>
+                            <li data-lang-key="shortcutSurah">[ and ]: previous / next surah while reading</li>
+                            <li data-lang-key="shortcutEscape">Escape: close the table of contents panel</li>
+                        </ul>
+                    </details>
+                </section>
+
+                <section id="readable-section" class="content-section hidden">
+                    <div class="readable-toggle">
+                        <button class="readable-nav-button active" data-readable-section="full-quran" data-lang-key="fullQuran" lang="ar">كامل</button>
+                        <button class="readable-nav-button" data-readable-section="divided-quran" data-lang-key="dividedQuran" lang="ar">مجزء</button>
+                    </div>
+
+                    <button id="resume-reading-button" class="resume-reading-button hidden" type="button" data-lang-key="resumeReading">Resume reading</button>
+                    <div id="bookmarks-panel" class="bookmarks-panel hidden">
+                        <button id="bookmarks-toggle" class="bookmarks-toggle" type="button" aria-expanded="false" aria-controls="bookmarks-list" data-lang-key="bookmarks">Bookmarks</button>
+                        <ul id="bookmarks-list" class="bookmarks-list hidden"></ul>
+                    </div>
+
+                    <div id="rewayah-selector-container" class="selector-container rewayah-selector hidden">
+                        <span class="selector-label" data-lang-key="selectRewayah">Select Rewayah:</span>
+                        <div id="rewayah-buttons-container" class="rewayah-buttons">
+                            <!-- Rewayah buttons populated by JS -->
+                        </div>
+                        <div id="rewayah-validation-message" class="validation-message hidden"></div>
+                    </div>
+
+                    <p data-lang-key="readablePlaceholder" class="hidden">This section will display the text of the selected Surah. (Functionality to be added)</p>
+
+                    <div id="pdf-viewer-container" class="pdf-viewer hidden">
+                        <!-- role="dialog"/aria-modal are set by openMobileToc() and removed by
+                             closeMobileToc(): this is only a modal drawer below 768px. Declaring
+                             them statically told assistive tech the rest of the page was inert
+                             even on desktop, where the sidebar is just an inline column. -->
+                        <div id="custom-toc-sidebar" class="pdf-toc-sidebar" tabindex="-1" data-lang-aria-label="tocSidebarLabel" aria-label="Table of contents">
+                            <!-- A real <button>, not a bare <h2> with a click handler,
+                                 which was unreachable by keyboard. The <h2> wraps it so the
+                                 document heading structure is unchanged. -->
+                            <h2 class="pdf-sidebar-heading">
+                                <button id="toc-header" type="button" class="pdf-sidebar-button active" data-lang-key="tocHeader">Table of Contents</button>
+                            </h2>
+                            <ul id="custom-toc-list" tabindex="0">
+                                <!-- TOC items will be populated by script.js -->
+                            </ul>
+                            <button id="pdf-download" class="pdf-download-button hidden">Download PDF</button>
+                        </div>
+
+                        <div class="pdf-viewer-main">
+                            <div class="pdf-controls">
+                                <button id="hamburger-toc" title="Table of Contents" data-lang-aria-label="tocSidebarLabel" aria-label="Table of Contents" aria-expanded="false" aria-controls="custom-toc-sidebar">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+                                        <path d="M4 7h16M4 12h16M4 17h16"/>
+                                    </svg>
+                                </button>
+                                <button id="pdf-prev" data-lang-aria-label="pdfPrevPage" title="Previous Page" aria-label="Previous Page">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <path d="m14.5 5.5-6.5 6.5 6.5 6.5"/>
+                                    </svg>
+                                </button>
+                                <span class="pdf-page-indicator">Page: <input type="number" id="pdf-page-input" min="1" value="1" data-lang-aria-label="pdfPageInputLabel" aria-label="PDF page number"> / <span id="pdf-page-count">-</span></span>
+                                <button id="pdf-go-to-page" title="Go to Page">Go</button>
+                                <button id="pdf-next" data-lang-aria-label="pdfNextPage" title="Next Page" aria-label="Next Page">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <path d="m9.5 5.5 6.5 6.5-6.5 6.5"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="pdf-stage">
+                                <div class="pdf-canvas-container" tabindex="0">
+                                    <canvas id="pdf-canvas" data-lang-aria-label="pdfCanvasLabel" aria-label="Rendered Quran page"></canvas>
+                                </div>
+                                <button id="pdf-prev-side" data-lang-aria-label="pdfPrevPage" class="pdf-side-nav pdf-side-prev" type="button" aria-label="Previous Page" title="Previous Page" disabled>
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <path d="m14.5 5.5-6.5 6.5 6.5 6.5"/>
+                                    </svg>
+                                </button>
+                                <button id="pdf-next-side" data-lang-aria-label="pdfNextPage" class="pdf-side-nav pdf-side-next" type="button" aria-label="Next Page" title="Next Page" disabled>
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <path d="m9.5 5.5 6.5 6.5-6.5 6.5"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="toc-overlay"></div>
+                    </div>
+
+                    <div id="english-edition-bar" class="english-edition-bar hidden">
+                        <span id="english-credit" class="english-credit"></span>
+                        <button id="open-pdf-edition" class="english-pdf-link" type="button" data-lang-key="openPdfEdition">Open the PDF edition</button>
+                    </div>
+
+                    <div id="surah-search-wrap" class="surah-search hidden">
+                        <input type="search" id="surah-search" autocomplete="off" data-lang-aria-label="searchSurahLabel" aria-label="Search surahs" placeholder="Search by name or number...">
+                    </div>
+
+                    <div id="surah-buttons-container" class="surah-grid hidden">
+                        <!-- Surah buttons populated by JS -->
+                    </div>
+
+                    <div id="divided-quran-container" class="divided-quran-container hidden">
+                        <div id="khatma-panel" class="khatma-panel">
+                            <p id="khatma-progress" class="khatma-progress" role="status"></p>
+                            <div class="khatma-actions">
+                                <button id="khatma-continue" class="khatma-continue hidden" type="button" data-lang-key="khatmaContinue">Continue</button>
+                                <button id="khatma-reset" class="khatma-reset hidden" type="button" data-lang-key="khatmaReset">Reset progress</button>
+                            </div>
+                        </div>
+                        <div class="juz-grid">
+                            <!-- Juz buttons will be populated by JS -->
+                        </div>
+                    </div>
+
+                    <div id="surah-text-display-container" class="hidden">
+                        <div class="surah-navigation-header hidden">
+                            <button id="prev-surah" class="surah-nav-button prev hidden" aria-label="Previous Surah">
+                                <span class="arrow" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m14.5 5.5-6.5 6.5 6.5 6.5"/></svg>
+                                </span>
+                                <span class="surah-name"></span>
+                            </button>
+                            <button id="back-to-surah-select" data-lang-key="backButton">Back</button>
+                            <button id="next-surah" class="surah-nav-button next hidden" aria-label="Next Surah">
+                                <span class="surah-name"></span>
+                                <span class="arrow" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9.5 5.5 6.5 6.5-6.5 6.5"/></svg>
+                                </span>
+                            </button>
+                            <div class="reading-toolbar">
+                                <div class="font-size-controls" role="group" data-lang-aria-label="fontSizeGroupLabel" aria-label="Text size">
+                                    <button id="font-size-decrease" type="button" data-lang-aria-label="fontSizeDecrease" aria-label="Decrease text size">A-</button>
+                                    <button id="font-size-reset" type="button" data-lang-aria-label="fontSizeReset" aria-label="Reset text size">A</button>
+                                    <button id="font-size-increase" type="button" data-lang-aria-label="fontSizeIncrease" aria-label="Increase text size">A+</button>
+                                </div>
+                                <div class="share-control">
+                                    <button id="share-button" class="share-button" type="button">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                            <circle cx="18" cy="5" r="3"/>
+                                            <circle cx="6" cy="12" r="3"/>
+                                            <circle cx="18" cy="19" r="3"/>
+                                            <path d="m8.6 10.7 6.8-4M8.6 13.3l6.8 4"/>
+                                        </svg>
+                                        <span data-lang-key="share">Share</span>
+                                    </button>
+                                    <span id="share-status" class="visually-hidden" role="status"></span>
+                                </div>
+                                <button id="juz-read-toggle" class="juz-read-toggle hidden" type="button" data-lang-key="markJuzRead">Mark as read</button>
+                                <button id="verse-audio-toggle" class="verse-audio-toggle hidden" type="button" aria-pressed="false" data-lang-key="verseByVerse">Verse by verse</button>
+                            </div>
+                        </div>
+
+                        <div id="reading-status" class="visually-hidden" role="status" aria-live="polite"></div>
+                        <div id="verse-audio-bar" class="verse-audio-bar hidden" role="group" data-lang-aria-label="verseAudioBarLabel" aria-label="Verse by verse recitation">
+                            <button id="verse-audio-prev" type="button" data-lang-aria-label="versePrev" aria-label="Previous verse">&#8249;</button>
+                            <button id="verse-audio-play" type="button" data-lang-aria-label="versePause" aria-label="Pause">&#10073;&#10073;</button>
+                            <button id="verse-audio-next" type="button" data-lang-aria-label="verseNext" aria-label="Next verse">&#8250;</button>
+                            <span id="verse-audio-position" class="verse-audio-position"></span>
+                            <label class="verse-audio-repeat">
+                                <span class="toolbar-label" data-lang-key="repeatLabel">Repeat</span>
+                                <select id="verse-audio-repeat">
+                                    <option value="1" selected data-lang-key="repeatOff">Off</option>
+                                    <option value="2" data-lang-key="repeat2">2x</option>
+                                    <option value="3" data-lang-key="repeat3">3x</option>
+                                    <option value="5" data-lang-key="repeat5">5x</option>
+                                    <option value="0" data-lang-key="repeatForever">Loop</option>
+                                </select>
+                            </label>
+                            <button id="verse-audio-ab" type="button" data-lang-key="abSetStart">Loop from here</button>
+                            <button id="verse-audio-stop" type="button" data-lang-key="verseStop">Stop</button>
+                        </div>
+
+                        <div id="surah-display-title" class="surah-display-title hidden"></div>
+                        <div id="basmala-display" class="basmala-display hidden"></div>
+                        <!-- Placeholder shown while the verse text and its mushaf OTF load.
+                             Deliberately outside #surah-text-display: that element renders in
+                             the mushaf font, which is font-display:block, so any text placed
+                             there is invisible until the font arrives. -->
+                        <div id="reading-skeleton" class="reading-skeleton hidden" aria-hidden="true">
+                            <span></span><span></span><span></span><span></span>
+                            <span></span><span></span><span></span><span></span>
+                        </div>
+                        <div id="surah-text-display" dir="rtl" lang="ar"></div>
+                        <div id="verse-actions" class="verse-actions hidden" role="group" data-lang-aria-label="verseActionsLabel" aria-label="Verse actions">
+                            <span id="verse-actions-ref" class="verse-actions-ref"></span>
+                            <button id="verse-play" class="hidden" type="button" data-lang-key="versePlayFromHere">Play</button>
+                            <button id="verse-bookmark" type="button" data-lang-key="bookmarkAdd">Bookmark</button>
+                            <button id="verse-copy" type="button" data-lang-key="copyVerse">Copy</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="search-section" class="content-section hidden">
+                    <div class="full-search">
+                        <div class="full-search-bar">
+                            <input type="search" id="full-search-input" autocomplete="off" spellcheck="false" data-lang-aria-label="searchInputLabel" aria-label="Search the Quran text" placeholder="Search the Quran text...">
+                            <button id="full-search-go" class="full-search-go" type="button" data-lang-key="searchGo">Search</button>
+                        </div>
+                        <p id="search-status" class="search-status" role="status"></p>
+                        <ul id="search-results" class="search-results"></ul>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Optional Footer -->
+            <!--
+            <footer>
+                <p>&copy; 2025 Hasana.io</p>
+            </footer>
+            -->
+        </div>
+    </div>
+
+    <!-- Make script type=module for PDF.js import -->
+    <script src="script.bd7960cde7.js" type="module"></script>
+</body>
+</html>

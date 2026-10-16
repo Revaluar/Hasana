@@ -1,0 +1,27 @@
+# Cloudflare Pages headers (replaces .htaccess)
+# Cache policy parity with the old Hostinger setup.
+/index.html
+  Cache-Control: no-cache, must-revalidate
+/quran_data.json
+  Cache-Control: no-cache, must-revalidate
+# Content-hashed filenames: a changed file is a different URL, so these are
+# immutable. index.html is no-cache, so a new build's HTML points at the new
+# names immediately.
+/style.*
+  Cache-Control: public, max-age=31536000, immutable
+/script.*
+  Cache-Control: public, max-age=31536000, immutable
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+/icons/*
+  Cache-Control: public, max-age=31536000, immutable
+/Written/*
+  Cache-Control: public, max-age=2592000
+# Generated per-surah pages. Self-contained HTML (CSS inlined, no app assets
+# referenced), so they carry no hashed filename to cache-bust against - which
+# is exactly why they get index.html's treatment rather than an immutable one:
+# the URL never changes, so the content behind it has to revalidate.
+/surah/*
+  Cache-Control: no-cache, must-revalidate
+/*
+  X-Content-Type-Options: nosniff

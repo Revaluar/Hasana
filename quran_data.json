@@ -1,0 +1,4968 @@
+{
+    "surahs": [
+        {
+            "order": 1,
+            "name_en": "Al-Fatihah",
+            "name_ar": "الفاتحة",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 2,
+            "name_en": "Al-Baqarah",
+            "name_ar": "البقرة",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 3,
+            "name_en": "Al-'Imran",
+            "name_ar": "آل عمران",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 4,
+            "name_en": "An-Nisa'",
+            "name_ar": "النساء",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 5,
+            "name_en": "Al-Ma'idah",
+            "name_ar": "المائدة",
+            "type": "مدنيّة",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 6,
+            "name_en": "Al-An'am",
+            "name_ar": "الأنعام",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 7,
+            "name_en": "Al-A'raf",
+            "name_ar": "الأعراف",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 8,
+            "name_en": "Al-Anfal",
+            "name_ar": "الأنفال",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 9,
+            "name_en": "At-Tawbah",
+            "name_ar": "التوبة",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 10,
+            "name_en": "Yunus",
+            "name_ar": "يونس",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 11,
+            "name_en": "Hud",
+            "name_ar": "هود",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 12,
+            "name_en": "Yusuf",
+            "name_ar": "يوسف",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 13,
+            "name_en": "Ar-Ra'd",
+            "name_ar": "الرعد",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 14,
+            "name_en": "Ibrahim",
+            "name_ar": "ابراهيم",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 15,
+            "name_en": "Al-Hijr",
+            "name_ar": "الحجر",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 16,
+            "name_en": "An-Nahl",
+            "name_ar": "النحل",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 17,
+            "name_en": "Al-Isra'",
+            "name_ar": "الإسراء",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 18,
+            "name_en": "Al-Kahf",
+            "name_ar": "الكهف",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 19,
+            "name_en": "Maryam",
+            "name_ar": "مريم",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 20,
+            "name_en": "Ta-Ha",
+            "name_ar": "طه",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 21,
+            "name_en": "Al-Anbiya'",
+            "name_ar": "الأنبياء",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 22,
+            "name_en": "Al-Hajj",
+            "name_ar": "الحج",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 23,
+            "name_en": "Al-Mu'minun",
+            "name_ar": "المؤمنون",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 24,
+            "name_en": "An-Nur",
+            "name_ar": "النور",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 25,
+            "name_en": "Al-Furqan",
+            "name_ar": "الفرقان",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 26,
+            "name_en": "Ash-Shu'ara'",
+            "name_ar": "الشعراء",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 27,
+            "name_en": "An-Naml",
+            "name_ar": "النمل",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 28,
+            "name_en": "Al-Qasas",
+            "name_ar": "القصص",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 29,
+            "name_en": "Al-'Ankabut",
+            "name_ar": "العنكبوت",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 30,
+            "name_en": "Ar-Rum",
+            "name_ar": "الروم",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 31,
+            "name_en": "Luqman",
+            "name_ar": "لقمان",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 32,
+            "name_en": "As-Sajdah",
+            "name_ar": "السجدة",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 33,
+            "name_en": "Al-Ahzab",
+            "name_ar": "الأحزاب",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 34,
+            "name_en": "Saba'",
+            "name_ar": "سبأ",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 35,
+            "name_en": "Fatir",
+            "name_ar": "فاطر",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 36,
+            "name_en": "Ya-Sin",
+            "name_ar": "يس",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 37,
+            "name_en": "As-Saffat",
+            "name_ar": "الصافات",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 38,
+            "name_en": "Sad",
+            "name_ar": "سورة ص",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 39,
+            "name_en": "Az-Zumar",
+            "name_ar": "الزمر",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 40,
+            "name_en": "Ghafir",
+            "name_ar": "غافر",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 41,
+            "name_en": "Fussilat",
+            "name_ar": "فصلت",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 42,
+            "name_en": "Ash-Shura",
+            "name_ar": "الشورى",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 43,
+            "name_en": "Az-Zukhruf",
+            "name_ar": "الزخرف",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 44,
+            "name_en": "Ad-Dukhan",
+            "name_ar": "الدخان",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 45,
+            "name_en": "Al-Jathiyah",
+            "name_ar": "الجاثية",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 46,
+            "name_en": "Al-Ahqaf",
+            "name_ar": "الأحقاف",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 47,
+            "name_en": "Muhammad",
+            "name_ar": "محمد",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 48,
+            "name_en": "Al-Fath",
+            "name_ar": "الفتح",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 49,
+            "name_en": "Al-Hujurat",
+            "name_ar": "الحجرات",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 50,
+            "name_en": "Qaf",
+            "name_ar": "سورة ق",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 51,
+            "name_en": "Adh-Dhariyat",
+            "name_ar": "الذاريات",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 52,
+            "name_en": "At-Tur",
+            "name_ar": "الطور",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 53,
+            "name_en": "An-Najm",
+            "name_ar": "النجم",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 54,
+            "name_en": "Al-Qamar",
+            "name_ar": "القمر",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 55,
+            "name_en": "Ar-Rahman",
+            "name_ar": "الرحمن",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 56,
+            "name_en": "Al-Waqi'ah",
+            "name_ar": "الواقعة",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 57,
+            "name_en": "Al-Hadid",
+            "name_ar": "الحديد",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 58,
+            "name_en": "Al-Mujadilah",
+            "name_ar": "المجادلة",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 59,
+            "name_en": "Al-Hashr",
+            "name_ar": "الحشر",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 60,
+            "name_en": "Al-Mumtahanah",
+            "name_ar": "الممتحنة",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 61,
+            "name_en": "As-Saff",
+            "name_ar": "الصف",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 62,
+            "name_en": "Al-Jumu'ah",
+            "name_ar": "الجمعة",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 63,
+            "name_en": "Al-Munafiqun",
+            "name_ar": "المنافقون",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 64,
+            "name_en": "At-Taghabun",
+            "name_ar": "التغابن",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 65,
+            "name_en": "At-Talaq",
+            "name_ar": "الطلاق",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 66,
+            "name_en": "At-Tahrim",
+            "name_ar": "التحريم",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 67,
+            "name_en": "Al-Mulk",
+            "name_ar": "الملك",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 68,
+            "name_en": "Al-Qalam",
+            "name_ar": "القلم",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 69,
+            "name_en": "Al-Haqqah",
+            "name_ar": "الحاقة",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 70,
+            "name_en": "Al-Ma'arij",
+            "name_ar": "المعارج",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 71,
+            "name_en": "Nuh",
+            "name_ar": "نوح",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 72,
+            "name_en": "Al-Jinn",
+            "name_ar": "الجن",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 73,
+            "name_en": "Al-Muzzammil",
+            "name_ar": "المزمل",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 74,
+            "name_en": "Al-Muddaththir",
+            "name_ar": "المدثر",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 75,
+            "name_en": "Al-Qiyamah",
+            "name_ar": "القيامة",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 76,
+            "name_en": "Al-Insan",
+            "name_ar": "الإنسان",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 77,
+            "name_en": "Al-Mursalat",
+            "name_ar": "المرسلات",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 78,
+            "name_en": "An-Naba'",
+            "name_ar": "النبأ",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 79,
+            "name_en": "An-Nazi'at",
+            "name_ar": "النازعات",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 80,
+            "name_en": "'Abasa",
+            "name_ar": "عبس",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 81,
+            "name_en": "At-Takwir",
+            "name_ar": "التكوير",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 82,
+            "name_en": "Al-Infitar",
+            "name_ar": "الإنفطار",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 83,
+            "name_en": "Al-Mutaffifin",
+            "name_ar": "المطففين",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 84,
+            "name_en": "Al-Inshiqaq",
+            "name_ar": "الانشقاق",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 85,
+            "name_en": "Al-Buruj",
+            "name_ar": "البروج",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 86,
+            "name_en": "At-Tariq",
+            "name_ar": "الطارق",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 87,
+            "name_en": "Al-A'la",
+            "name_ar": "الأعلى",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 88,
+            "name_en": "Al-Ghashiyah",
+            "name_ar": "الغاشية",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 89,
+            "name_en": "Al-Fajr",
+            "name_ar": "الفجر",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 90,
+            "name_en": "Al-Balad",
+            "name_ar": "البلد",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 91,
+            "name_en": "Ash-Shams",
+            "name_ar": "الشمس",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 92,
+            "name_en": "Al-Layl",
+            "name_ar": "الليل",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 93,
+            "name_en": "Ad-Duha",
+            "name_ar": "الضحى",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 94,
+            "name_en": "Ash-Sharh",
+            "name_ar": "الشرح",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 95,
+            "name_en": "At-Tin",
+            "name_ar": "التين",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 96,
+            "name_en": "Al-'Alaq",
+            "name_ar": "العلق",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 97,
+            "name_en": "Al-Qadr",
+            "name_ar": "القدر",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 98,
+            "name_en": "Al-Bayyinah",
+            "name_ar": "البينة",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 99,
+            "name_en": "Az-Zalzalah",
+            "name_ar": "الزلزلة",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 100,
+            "name_en": "Al-'Adiyat",
+            "name_ar": "العاديات",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 101,
+            "name_en": "Al-Qari'ah",
+            "name_ar": "القارعة",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 102,
+            "name_en": "At-Takathur",
+            "name_ar": "التكاثر",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 103,
+            "name_en": "Al-'Asr",
+            "name_ar": "العصر",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 104,
+            "name_en": "Al-Humazah",
+            "name_ar": "الهمزة",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 105,
+            "name_en": "Al-Fil",
+            "name_ar": "الفيل",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 106,
+            "name_en": "Quraysh",
+            "name_ar": "قريش",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 107,
+            "name_en": "Al-Ma'un",
+            "name_ar": "الماعون",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 108,
+            "name_en": "Al-Kawthar",
+            "name_ar": "الكوثر",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 109,
+            "name_en": "Al-Kafirun",
+            "name_ar": "الكافرون",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 110,
+            "name_en": "An-Nasr",
+            "name_ar": "النصر",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 111,
+            "name_en": "Al-Masad",
+            "name_ar": "المسد",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 112,
+            "name_en": "Al-Ikhlas",
+            "name_ar": "الإخلاص",
+            "type": "مكية",
+            "type_en": "Meccan"
+        },
+        {
+            "order": 113,
+            "name_en": "Al-Falaq",
+            "name_ar": "الفلق",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        },
+        {
+            "order": 114,
+            "name_en": "An-Nas",
+            "name_ar": "الناس",
+            "type": "مدنية",
+            "type_en": "Medinan"
+        }
+    ],
+    "rewayaat": {
+        "Bazzi": {
+            "path": "Written/Bazzi",
+            "basmala_text": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+            "surah_info": {
+                "1": {
+                    "has_basmala": false,
+                    "verse_count": 7
+                },
+                "2": {
+                    "has_basmala": true,
+                    "verse_count": 285
+                },
+                "3": {
+                    "has_basmala": true,
+                    "verse_count": 200
+                },
+                "4": {
+                    "has_basmala": true,
+                    "verse_count": 175
+                },
+                "5": {
+                    "has_basmala": true,
+                    "verse_count": 122
+                },
+                "6": {
+                    "has_basmala": true,
+                    "verse_count": 167
+                },
+                "7": {
+                    "has_basmala": true,
+                    "verse_count": 206
+                },
+                "8": {
+                    "has_basmala": true,
+                    "verse_count": 76
+                },
+                "9": {
+                    "has_basmala": false,
+                    "verse_count": 130
+                },
+                "10": {
+                    "has_basmala": true,
+                    "verse_count": 109
+                },
+                "11": {
+                    "has_basmala": true,
+                    "verse_count": 121
+                },
+                "12": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "13": {
+                    "has_basmala": true,
+                    "verse_count": 44
+                },
+                "14": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "15": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "16": {
+                    "has_basmala": true,
+                    "verse_count": 128
+                },
+                "17": {
+                    "has_basmala": true,
+                    "verse_count": 110
+                },
+                "18": {
+                    "has_basmala": true,
+                    "verse_count": 105
+                },
+                "19": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "20": {
+                    "has_basmala": true,
+                    "verse_count": 134
+                },
+                "21": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "22": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "23": {
+                    "has_basmala": true,
+                    "verse_count": 119
+                },
+                "24": {
+                    "has_basmala": true,
+                    "verse_count": 62
+                },
+                "25": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "26": {
+                    "has_basmala": true,
+                    "verse_count": 226
+                },
+                "27": {
+                    "has_basmala": true,
+                    "verse_count": 95
+                },
+                "28": {
+                    "has_basmala": true,
+                    "verse_count": 88
+                },
+                "29": {
+                    "has_basmala": true,
+                    "verse_count": 69
+                },
+                "30": {
+                    "has_basmala": true,
+                    "verse_count": 59
+                },
+                "31": {
+                    "has_basmala": true,
+                    "verse_count": 33
+                },
+                "32": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "33": {
+                    "has_basmala": true,
+                    "verse_count": 73
+                },
+                "34": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "35": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "36": {
+                    "has_basmala": true,
+                    "verse_count": 82
+                },
+                "37": {
+                    "has_basmala": true,
+                    "verse_count": 182
+                },
+                "38": {
+                    "has_basmala": true,
+                    "verse_count": 86
+                },
+                "39": {
+                    "has_basmala": true,
+                    "verse_count": 72
+                },
+                "40": {
+                    "has_basmala": true,
+                    "verse_count": 84
+                },
+                "41": {
+                    "has_basmala": true,
+                    "verse_count": 53
+                },
+                "42": {
+                    "has_basmala": true,
+                    "verse_count": 50
+                },
+                "43": {
+                    "has_basmala": true,
+                    "verse_count": 89
+                },
+                "44": {
+                    "has_basmala": true,
+                    "verse_count": 56
+                },
+                "45": {
+                    "has_basmala": true,
+                    "verse_count": 36
+                },
+                "46": {
+                    "has_basmala": true,
+                    "verse_count": 34
+                },
+                "47": {
+                    "has_basmala": true,
+                    "verse_count": 39
+                },
+                "48": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "49": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "50": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "51": {
+                    "has_basmala": true,
+                    "verse_count": 60
+                },
+                "52": {
+                    "has_basmala": true,
+                    "verse_count": 47
+                },
+                "53": {
+                    "has_basmala": true,
+                    "verse_count": 61
+                },
+                "54": {
+                    "has_basmala": true,
+                    "verse_count": 55
+                },
+                "55": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "56": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "57": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "58": {
+                    "has_basmala": true,
+                    "verse_count": 21
+                },
+                "59": {
+                    "has_basmala": true,
+                    "verse_count": 24
+                },
+                "60": {
+                    "has_basmala": true,
+                    "verse_count": 13
+                },
+                "61": {
+                    "has_basmala": true,
+                    "verse_count": 14
+                },
+                "62": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "63": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "64": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "65": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "66": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "67": {
+                    "has_basmala": true,
+                    "verse_count": 31
+                },
+                "68": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "69": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "70": {
+                    "has_basmala": true,
+                    "verse_count": 44
+                },
+                "71": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "72": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "73": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "74": {
+                    "has_basmala": true,
+                    "verse_count": 55
+                },
+                "75": {
+                    "has_basmala": true,
+                    "verse_count": 39
+                },
+                "76": {
+                    "has_basmala": true,
+                    "verse_count": 31
+                },
+                "77": {
+                    "has_basmala": true,
+                    "verse_count": 50
+                },
+                "78": {
+                    "has_basmala": true,
+                    "verse_count": 41
+                },
+                "79": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "80": {
+                    "has_basmala": true,
+                    "verse_count": 42
+                },
+                "81": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "82": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "83": {
+                    "has_basmala": true,
+                    "verse_count": 36
+                },
+                "84": {
+                    "has_basmala": true,
+                    "verse_count": 25
+                },
+                "85": {
+                    "has_basmala": true,
+                    "verse_count": 22
+                },
+                "86": {
+                    "has_basmala": true,
+                    "verse_count": 17
+                },
+                "87": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "88": {
+                    "has_basmala": true,
+                    "verse_count": 26
+                },
+                "89": {
+                    "has_basmala": true,
+                    "verse_count": 32
+                },
+                "90": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "91": {
+                    "has_basmala": true,
+                    "verse_count": 15
+                },
+                "92": {
+                    "has_basmala": true,
+                    "verse_count": 21
+                },
+                "93": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "94": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "95": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "96": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "97": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "98": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "99": {
+                    "has_basmala": true,
+                    "verse_count": 9
+                },
+                "100": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "101": {
+                    "has_basmala": true,
+                    "verse_count": 10
+                },
+                "102": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "103": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "104": {
+                    "has_basmala": true,
+                    "verse_count": 9
+                },
+                "105": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "106": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "107": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "108": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "109": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "110": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "111": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "112": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "113": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "114": {
+                    "has_basmala": true,
+                    "verse_count": 7
+                }
+            }
+        },
+        "Doori": {
+            "path": "Written/Doori",
+            "basmala_text": "بِسۡمِ اِ۬للَّهِ اِ۬لرَّحۡمَٰنِ اِ۬لرَّحِيمِ",
+            "surah_info": {
+                "1": {
+                    "has_basmala": true,
+                    "verse_count": 7
+                },
+                "2": {
+                    "has_basmala": true,
+                    "verse_count": 285
+                },
+                "3": {
+                    "has_basmala": true,
+                    "verse_count": 200
+                },
+                "4": {
+                    "has_basmala": true,
+                    "verse_count": 175
+                },
+                "5": {
+                    "has_basmala": true,
+                    "verse_count": 122
+                },
+                "6": {
+                    "has_basmala": true,
+                    "verse_count": 167
+                },
+                "7": {
+                    "has_basmala": true,
+                    "verse_count": 206
+                },
+                "8": {
+                    "has_basmala": true,
+                    "verse_count": 76
+                },
+                "9": {
+                    "has_basmala": false,
+                    "verse_count": 130
+                },
+                "10": {
+                    "has_basmala": true,
+                    "verse_count": 109
+                },
+                "11": {
+                    "has_basmala": true,
+                    "verse_count": 122
+                },
+                "12": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "13": {
+                    "has_basmala": true,
+                    "verse_count": 44
+                },
+                "14": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "15": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "16": {
+                    "has_basmala": true,
+                    "verse_count": 128
+                },
+                "17": {
+                    "has_basmala": true,
+                    "verse_count": 110
+                },
+                "18": {
+                    "has_basmala": true,
+                    "verse_count": 105
+                },
+                "19": {
+                    "has_basmala": true,
+                    "verse_count": 98
+                },
+                "20": {
+                    "has_basmala": true,
+                    "verse_count": 134
+                },
+                "21": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "22": {
+                    "has_basmala": true,
+                    "verse_count": 76
+                },
+                "23": {
+                    "has_basmala": true,
+                    "verse_count": 119
+                },
+                "24": {
+                    "has_basmala": true,
+                    "verse_count": 62
+                },
+                "25": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "26": {
+                    "has_basmala": true,
+                    "verse_count": 227
+                },
+                "27": {
+                    "has_basmala": true,
+                    "verse_count": 95
+                },
+                "28": {
+                    "has_basmala": true,
+                    "verse_count": 88
+                },
+                "29": {
+                    "has_basmala": true,
+                    "verse_count": 69
+                },
+                "30": {
+                    "has_basmala": true,
+                    "verse_count": 60
+                },
+                "31": {
+                    "has_basmala": true,
+                    "verse_count": 33
+                },
+                "32": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "33": {
+                    "has_basmala": true,
+                    "verse_count": 73
+                },
+                "34": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "35": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "36": {
+                    "has_basmala": true,
+                    "verse_count": 82
+                },
+                "37": {
+                    "has_basmala": true,
+                    "verse_count": 182
+                },
+                "38": {
+                    "has_basmala": true,
+                    "verse_count": 86
+                },
+                "39": {
+                    "has_basmala": true,
+                    "verse_count": 72
+                },
+                "40": {
+                    "has_basmala": true,
+                    "verse_count": 84
+                },
+                "41": {
+                    "has_basmala": true,
+                    "verse_count": 53
+                },
+                "42": {
+                    "has_basmala": true,
+                    "verse_count": 50
+                },
+                "43": {
+                    "has_basmala": true,
+                    "verse_count": 89
+                },
+                "44": {
+                    "has_basmala": true,
+                    "verse_count": 56
+                },
+                "45": {
+                    "has_basmala": true,
+                    "verse_count": 36
+                },
+                "46": {
+                    "has_basmala": true,
+                    "verse_count": 34
+                },
+                "47": {
+                    "has_basmala": true,
+                    "verse_count": 39
+                },
+                "48": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "49": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "50": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "51": {
+                    "has_basmala": true,
+                    "verse_count": 60
+                },
+                "52": {
+                    "has_basmala": true,
+                    "verse_count": 47
+                },
+                "53": {
+                    "has_basmala": true,
+                    "verse_count": 61
+                },
+                "54": {
+                    "has_basmala": true,
+                    "verse_count": 55
+                },
+                "55": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "56": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "57": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "58": {
+                    "has_basmala": true,
+                    "verse_count": 22
+                },
+                "59": {
+                    "has_basmala": true,
+                    "verse_count": 24
+                },
+                "60": {
+                    "has_basmala": true,
+                    "verse_count": 13
+                },
+                "61": {
+                    "has_basmala": true,
+                    "verse_count": 14
+                },
+                "62": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "63": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "64": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "65": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "66": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "67": {
+                    "has_basmala": true,
+                    "verse_count": 31
+                },
+                "68": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "69": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "70": {
+                    "has_basmala": true,
+                    "verse_count": 44
+                },
+                "71": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "72": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "73": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "74": {
+                    "has_basmala": true,
+                    "verse_count": 56
+                },
+                "75": {
+                    "has_basmala": true,
+                    "verse_count": 39
+                },
+                "76": {
+                    "has_basmala": true,
+                    "verse_count": 31
+                },
+                "77": {
+                    "has_basmala": true,
+                    "verse_count": 50
+                },
+                "78": {
+                    "has_basmala": true,
+                    "verse_count": 40
+                },
+                "79": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "80": {
+                    "has_basmala": true,
+                    "verse_count": 42
+                },
+                "81": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "82": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "83": {
+                    "has_basmala": true,
+                    "verse_count": 36
+                },
+                "84": {
+                    "has_basmala": true,
+                    "verse_count": 25
+                },
+                "85": {
+                    "has_basmala": true,
+                    "verse_count": 22
+                },
+                "86": {
+                    "has_basmala": true,
+                    "verse_count": 16
+                },
+                "87": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "88": {
+                    "has_basmala": true,
+                    "verse_count": 26
+                },
+                "89": {
+                    "has_basmala": true,
+                    "verse_count": 32
+                },
+                "90": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "91": {
+                    "has_basmala": true,
+                    "verse_count": 16
+                },
+                "92": {
+                    "has_basmala": true,
+                    "verse_count": 21
+                },
+                "93": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "94": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "95": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "96": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "97": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "98": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "99": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "100": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "101": {
+                    "has_basmala": true,
+                    "verse_count": 10
+                },
+                "102": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "103": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "104": {
+                    "has_basmala": true,
+                    "verse_count": 9
+                },
+                "105": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "106": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "107": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "108": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "109": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "110": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "111": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "112": {
+                    "has_basmala": true,
+                    "verse_count": 4
+                },
+                "113": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "114": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                }
+            }
+        },
+        "Hafs": {
+            "path": "Written/Hafs",
+            "basmala_text": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+            "surah_info": {
+                "1": {
+                    "has_basmala": false,
+                    "verse_count": 7
+                },
+                "2": {
+                    "has_basmala": true,
+                    "verse_count": 286
+                },
+                "3": {
+                    "has_basmala": true,
+                    "verse_count": 200
+                },
+                "4": {
+                    "has_basmala": true,
+                    "verse_count": 176
+                },
+                "5": {
+                    "has_basmala": true,
+                    "verse_count": 120
+                },
+                "6": {
+                    "has_basmala": true,
+                    "verse_count": 165
+                },
+                "7": {
+                    "has_basmala": true,
+                    "verse_count": 206
+                },
+                "8": {
+                    "has_basmala": true,
+                    "verse_count": 75
+                },
+                "9": {
+                    "has_basmala": false,
+                    "verse_count": 129
+                },
+                "10": {
+                    "has_basmala": true,
+                    "verse_count": 109
+                },
+                "11": {
+                    "has_basmala": true,
+                    "verse_count": 123
+                },
+                "12": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "13": {
+                    "has_basmala": true,
+                    "verse_count": 43
+                },
+                "14": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "15": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "16": {
+                    "has_basmala": true,
+                    "verse_count": 128
+                },
+                "17": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "18": {
+                    "has_basmala": true,
+                    "verse_count": 110
+                },
+                "19": {
+                    "has_basmala": true,
+                    "verse_count": 98
+                },
+                "20": {
+                    "has_basmala": true,
+                    "verse_count": 135
+                },
+                "21": {
+                    "has_basmala": true,
+                    "verse_count": 112
+                },
+                "22": {
+                    "has_basmala": true,
+                    "verse_count": 78
+                },
+                "23": {
+                    "has_basmala": true,
+                    "verse_count": 118
+                },
+                "24": {
+                    "has_basmala": true,
+                    "verse_count": 64
+                },
+                "25": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "26": {
+                    "has_basmala": true,
+                    "verse_count": 227
+                },
+                "27": {
+                    "has_basmala": true,
+                    "verse_count": 93
+                },
+                "28": {
+                    "has_basmala": true,
+                    "verse_count": 88
+                },
+                "29": {
+                    "has_basmala": true,
+                    "verse_count": 69
+                },
+                "30": {
+                    "has_basmala": true,
+                    "verse_count": 60
+                },
+                "31": {
+                    "has_basmala": true,
+                    "verse_count": 34
+                },
+                "32": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "33": {
+                    "has_basmala": true,
+                    "verse_count": 73
+                },
+                "34": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "35": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "36": {
+                    "has_basmala": true,
+                    "verse_count": 83
+                },
+                "37": {
+                    "has_basmala": true,
+                    "verse_count": 182
+                },
+                "38": {
+                    "has_basmala": true,
+                    "verse_count": 88
+                },
+                "39": {
+                    "has_basmala": true,
+                    "verse_count": 75
+                },
+                "40": {
+                    "has_basmala": true,
+                    "verse_count": 85
+                },
+                "41": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "42": {
+                    "has_basmala": true,
+                    "verse_count": 53
+                },
+                "43": {
+                    "has_basmala": true,
+                    "verse_count": 89
+                },
+                "44": {
+                    "has_basmala": true,
+                    "verse_count": 59
+                },
+                "45": {
+                    "has_basmala": true,
+                    "verse_count": 37
+                },
+                "46": {
+                    "has_basmala": true,
+                    "verse_count": 35
+                },
+                "47": {
+                    "has_basmala": true,
+                    "verse_count": 38
+                },
+                "48": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "49": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "50": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "51": {
+                    "has_basmala": true,
+                    "verse_count": 60
+                },
+                "52": {
+                    "has_basmala": true,
+                    "verse_count": 49
+                },
+                "53": {
+                    "has_basmala": true,
+                    "verse_count": 62
+                },
+                "54": {
+                    "has_basmala": true,
+                    "verse_count": 55
+                },
+                "55": {
+                    "has_basmala": true,
+                    "verse_count": 78
+                },
+                "56": {
+                    "has_basmala": true,
+                    "verse_count": 96
+                },
+                "57": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "58": {
+                    "has_basmala": true,
+                    "verse_count": 22
+                },
+                "59": {
+                    "has_basmala": true,
+                    "verse_count": 24
+                },
+                "60": {
+                    "has_basmala": true,
+                    "verse_count": 13
+                },
+                "61": {
+                    "has_basmala": true,
+                    "verse_count": 14
+                },
+                "62": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "63": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "64": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "65": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "66": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "67": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "68": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "69": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "70": {
+                    "has_basmala": true,
+                    "verse_count": 44
+                },
+                "71": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "72": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "73": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "74": {
+                    "has_basmala": true,
+                    "verse_count": 56
+                },
+                "75": {
+                    "has_basmala": true,
+                    "verse_count": 40
+                },
+                "76": {
+                    "has_basmala": true,
+                    "verse_count": 31
+                },
+                "77": {
+                    "has_basmala": true,
+                    "verse_count": 50
+                },
+                "78": {
+                    "has_basmala": true,
+                    "verse_count": 40
+                },
+                "79": {
+                    "has_basmala": true,
+                    "verse_count": 46
+                },
+                "80": {
+                    "has_basmala": true,
+                    "verse_count": 42
+                },
+                "81": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "82": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "83": {
+                    "has_basmala": true,
+                    "verse_count": 36
+                },
+                "84": {
+                    "has_basmala": true,
+                    "verse_count": 25
+                },
+                "85": {
+                    "has_basmala": true,
+                    "verse_count": 22
+                },
+                "86": {
+                    "has_basmala": true,
+                    "verse_count": 17
+                },
+                "87": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "88": {
+                    "has_basmala": true,
+                    "verse_count": 26
+                },
+                "89": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "90": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "91": {
+                    "has_basmala": true,
+                    "verse_count": 15
+                },
+                "92": {
+                    "has_basmala": true,
+                    "verse_count": 21
+                },
+                "93": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "94": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "95": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "96": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "97": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "98": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "99": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "100": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "101": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "102": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "103": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "104": {
+                    "has_basmala": true,
+                    "verse_count": 9
+                },
+                "105": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "106": {
+                    "has_basmala": true,
+                    "verse_count": 4
+                },
+                "107": {
+                    "has_basmala": true,
+                    "verse_count": 7
+                },
+                "108": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "109": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "110": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "111": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "112": {
+                    "has_basmala": true,
+                    "verse_count": 4
+                },
+                "113": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "114": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                }
+            }
+        },
+        "Qaloon": {
+            "path": "Written/Qaloon",
+            "basmala_text": "بِسْمِ اِ۬للَّهِ اِ۬لرَّحْمَٰنِ اِ۬لرَّحِيمِ",
+            "surah_info": {
+                "1": {
+                    "has_basmala": true,
+                    "verse_count": 7
+                },
+                "2": {
+                    "has_basmala": true,
+                    "verse_count": 285
+                },
+                "3": {
+                    "has_basmala": true,
+                    "verse_count": 200
+                },
+                "4": {
+                    "has_basmala": true,
+                    "verse_count": 175
+                },
+                "5": {
+                    "has_basmala": true,
+                    "verse_count": 122
+                },
+                "6": {
+                    "has_basmala": true,
+                    "verse_count": 167
+                },
+                "7": {
+                    "has_basmala": true,
+                    "verse_count": 206
+                },
+                "8": {
+                    "has_basmala": true,
+                    "verse_count": 76
+                },
+                "9": {
+                    "has_basmala": false,
+                    "verse_count": 130
+                },
+                "10": {
+                    "has_basmala": true,
+                    "verse_count": 109
+                },
+                "11": {
+                    "has_basmala": true,
+                    "verse_count": 121
+                },
+                "12": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "13": {
+                    "has_basmala": true,
+                    "verse_count": 44
+                },
+                "14": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "15": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "16": {
+                    "has_basmala": true,
+                    "verse_count": 128
+                },
+                "17": {
+                    "has_basmala": true,
+                    "verse_count": 110
+                },
+                "18": {
+                    "has_basmala": true,
+                    "verse_count": 105
+                },
+                "19": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "20": {
+                    "has_basmala": true,
+                    "verse_count": 134
+                },
+                "21": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "22": {
+                    "has_basmala": true,
+                    "verse_count": 76
+                },
+                "23": {
+                    "has_basmala": true,
+                    "verse_count": 119
+                },
+                "24": {
+                    "has_basmala": true,
+                    "verse_count": 62
+                },
+                "25": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "26": {
+                    "has_basmala": true,
+                    "verse_count": 226
+                },
+                "27": {
+                    "has_basmala": true,
+                    "verse_count": 95
+                },
+                "28": {
+                    "has_basmala": true,
+                    "verse_count": 88
+                },
+                "29": {
+                    "has_basmala": true,
+                    "verse_count": 69
+                },
+                "30": {
+                    "has_basmala": true,
+                    "verse_count": 59
+                },
+                "31": {
+                    "has_basmala": true,
+                    "verse_count": 33
+                },
+                "32": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "33": {
+                    "has_basmala": true,
+                    "verse_count": 73
+                },
+                "34": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "35": {
+                    "has_basmala": true,
+                    "verse_count": 46
+                },
+                "36": {
+                    "has_basmala": true,
+                    "verse_count": 82
+                },
+                "37": {
+                    "has_basmala": true,
+                    "verse_count": 182
+                },
+                "38": {
+                    "has_basmala": true,
+                    "verse_count": 86
+                },
+                "39": {
+                    "has_basmala": true,
+                    "verse_count": 72
+                },
+                "40": {
+                    "has_basmala": true,
+                    "verse_count": 84
+                },
+                "41": {
+                    "has_basmala": true,
+                    "verse_count": 53
+                },
+                "42": {
+                    "has_basmala": true,
+                    "verse_count": 50
+                },
+                "43": {
+                    "has_basmala": true,
+                    "verse_count": 89
+                },
+                "44": {
+                    "has_basmala": true,
+                    "verse_count": 56
+                },
+                "45": {
+                    "has_basmala": true,
+                    "verse_count": 36
+                },
+                "46": {
+                    "has_basmala": true,
+                    "verse_count": 34
+                },
+                "47": {
+                    "has_basmala": true,
+                    "verse_count": 39
+                },
+                "48": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "49": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "50": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "51": {
+                    "has_basmala": true,
+                    "verse_count": 60
+                },
+                "52": {
+                    "has_basmala": true,
+                    "verse_count": 47
+                },
+                "53": {
+                    "has_basmala": true,
+                    "verse_count": 61
+                },
+                "54": {
+                    "has_basmala": true,
+                    "verse_count": 55
+                },
+                "55": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "56": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "57": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "58": {
+                    "has_basmala": true,
+                    "verse_count": 21
+                },
+                "59": {
+                    "has_basmala": true,
+                    "verse_count": 24
+                },
+                "60": {
+                    "has_basmala": true,
+                    "verse_count": 13
+                },
+                "61": {
+                    "has_basmala": true,
+                    "verse_count": 14
+                },
+                "62": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "63": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "64": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "65": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "66": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "67": {
+                    "has_basmala": true,
+                    "verse_count": 31
+                },
+                "68": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "69": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "70": {
+                    "has_basmala": true,
+                    "verse_count": 44
+                },
+                "71": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "72": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "73": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "74": {
+                    "has_basmala": true,
+                    "verse_count": 55
+                },
+                "75": {
+                    "has_basmala": true,
+                    "verse_count": 39
+                },
+                "76": {
+                    "has_basmala": true,
+                    "verse_count": 31
+                },
+                "77": {
+                    "has_basmala": true,
+                    "verse_count": 50
+                },
+                "78": {
+                    "has_basmala": true,
+                    "verse_count": 40
+                },
+                "79": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "80": {
+                    "has_basmala": true,
+                    "verse_count": 42
+                },
+                "81": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "82": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "83": {
+                    "has_basmala": true,
+                    "verse_count": 36
+                },
+                "84": {
+                    "has_basmala": true,
+                    "verse_count": 25
+                },
+                "85": {
+                    "has_basmala": true,
+                    "verse_count": 22
+                },
+                "86": {
+                    "has_basmala": true,
+                    "verse_count": 17
+                },
+                "87": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "88": {
+                    "has_basmala": true,
+                    "verse_count": 26
+                },
+                "89": {
+                    "has_basmala": true,
+                    "verse_count": 32
+                },
+                "90": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "91": {
+                    "has_basmala": true,
+                    "verse_count": 15
+                },
+                "92": {
+                    "has_basmala": true,
+                    "verse_count": 21
+                },
+                "93": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "94": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "95": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "96": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "97": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "98": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "99": {
+                    "has_basmala": true,
+                    "verse_count": 9
+                },
+                "100": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "101": {
+                    "has_basmala": true,
+                    "verse_count": 10
+                },
+                "102": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "103": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "104": {
+                    "has_basmala": true,
+                    "verse_count": 9
+                },
+                "105": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "106": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "107": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "108": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "109": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "110": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "111": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "112": {
+                    "has_basmala": true,
+                    "verse_count": 4
+                },
+                "113": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "114": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                }
+            }
+        },
+        "Qunbul": {
+            "path": "Written/Qunbul",
+            "basmala_text": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+            "surah_info": {
+                "1": {
+                    "has_basmala": false,
+                    "verse_count": 7
+                },
+                "2": {
+                    "has_basmala": true,
+                    "verse_count": 285
+                },
+                "3": {
+                    "has_basmala": true,
+                    "verse_count": 200
+                },
+                "4": {
+                    "has_basmala": true,
+                    "verse_count": 175
+                },
+                "5": {
+                    "has_basmala": true,
+                    "verse_count": 122
+                },
+                "6": {
+                    "has_basmala": true,
+                    "verse_count": 167
+                },
+                "7": {
+                    "has_basmala": true,
+                    "verse_count": 206
+                },
+                "8": {
+                    "has_basmala": true,
+                    "verse_count": 76
+                },
+                "9": {
+                    "has_basmala": false,
+                    "verse_count": 130
+                },
+                "10": {
+                    "has_basmala": true,
+                    "verse_count": 109
+                },
+                "11": {
+                    "has_basmala": true,
+                    "verse_count": 121
+                },
+                "12": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "13": {
+                    "has_basmala": true,
+                    "verse_count": 44
+                },
+                "14": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "15": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "16": {
+                    "has_basmala": true,
+                    "verse_count": 128
+                },
+                "17": {
+                    "has_basmala": true,
+                    "verse_count": 110
+                },
+                "18": {
+                    "has_basmala": true,
+                    "verse_count": 105
+                },
+                "19": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "20": {
+                    "has_basmala": true,
+                    "verse_count": 134
+                },
+                "21": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "22": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "23": {
+                    "has_basmala": true,
+                    "verse_count": 119
+                },
+                "24": {
+                    "has_basmala": true,
+                    "verse_count": 62
+                },
+                "25": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "26": {
+                    "has_basmala": true,
+                    "verse_count": 226
+                },
+                "27": {
+                    "has_basmala": true,
+                    "verse_count": 95
+                },
+                "28": {
+                    "has_basmala": true,
+                    "verse_count": 88
+                },
+                "29": {
+                    "has_basmala": true,
+                    "verse_count": 69
+                },
+                "30": {
+                    "has_basmala": true,
+                    "verse_count": 59
+                },
+                "31": {
+                    "has_basmala": true,
+                    "verse_count": 33
+                },
+                "32": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "33": {
+                    "has_basmala": true,
+                    "verse_count": 73
+                },
+                "34": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "35": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "36": {
+                    "has_basmala": true,
+                    "verse_count": 82
+                },
+                "37": {
+                    "has_basmala": true,
+                    "verse_count": 182
+                },
+                "38": {
+                    "has_basmala": true,
+                    "verse_count": 86
+                },
+                "39": {
+                    "has_basmala": true,
+                    "verse_count": 72
+                },
+                "40": {
+                    "has_basmala": true,
+                    "verse_count": 84
+                },
+                "41": {
+                    "has_basmala": true,
+                    "verse_count": 53
+                },
+                "42": {
+                    "has_basmala": true,
+                    "verse_count": 50
+                },
+                "43": {
+                    "has_basmala": true,
+                    "verse_count": 89
+                },
+                "44": {
+                    "has_basmala": true,
+                    "verse_count": 56
+                },
+                "45": {
+                    "has_basmala": true,
+                    "verse_count": 36
+                },
+                "46": {
+                    "has_basmala": true,
+                    "verse_count": 34
+                },
+                "47": {
+                    "has_basmala": true,
+                    "verse_count": 39
+                },
+                "48": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "49": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "50": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "51": {
+                    "has_basmala": true,
+                    "verse_count": 60
+                },
+                "52": {
+                    "has_basmala": true,
+                    "verse_count": 47
+                },
+                "53": {
+                    "has_basmala": true,
+                    "verse_count": 61
+                },
+                "54": {
+                    "has_basmala": true,
+                    "verse_count": 55
+                },
+                "55": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "56": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "57": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "58": {
+                    "has_basmala": true,
+                    "verse_count": 21
+                },
+                "59": {
+                    "has_basmala": true,
+                    "verse_count": 24
+                },
+                "60": {
+                    "has_basmala": true,
+                    "verse_count": 13
+                },
+                "61": {
+                    "has_basmala": true,
+                    "verse_count": 14
+                },
+                "62": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "63": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "64": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "65": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "66": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "67": {
+                    "has_basmala": true,
+                    "verse_count": 31
+                },
+                "68": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "69": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "70": {
+                    "has_basmala": true,
+                    "verse_count": 44
+                },
+                "71": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "72": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "73": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "74": {
+                    "has_basmala": true,
+                    "verse_count": 55
+                },
+                "75": {
+                    "has_basmala": true,
+                    "verse_count": 39
+                },
+                "76": {
+                    "has_basmala": true,
+                    "verse_count": 31
+                },
+                "77": {
+                    "has_basmala": true,
+                    "verse_count": 50
+                },
+                "78": {
+                    "has_basmala": true,
+                    "verse_count": 41
+                },
+                "79": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "80": {
+                    "has_basmala": true,
+                    "verse_count": 42
+                },
+                "81": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "82": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "83": {
+                    "has_basmala": true,
+                    "verse_count": 36
+                },
+                "84": {
+                    "has_basmala": true,
+                    "verse_count": 25
+                },
+                "85": {
+                    "has_basmala": true,
+                    "verse_count": 22
+                },
+                "86": {
+                    "has_basmala": true,
+                    "verse_count": 17
+                },
+                "87": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "88": {
+                    "has_basmala": true,
+                    "verse_count": 26
+                },
+                "89": {
+                    "has_basmala": true,
+                    "verse_count": 32
+                },
+                "90": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "91": {
+                    "has_basmala": true,
+                    "verse_count": 15
+                },
+                "92": {
+                    "has_basmala": true,
+                    "verse_count": 21
+                },
+                "93": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "94": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "95": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "96": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "97": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "98": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "99": {
+                    "has_basmala": true,
+                    "verse_count": 9
+                },
+                "100": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "101": {
+                    "has_basmala": true,
+                    "verse_count": 10
+                },
+                "102": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "103": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "104": {
+                    "has_basmala": true,
+                    "verse_count": 9
+                },
+                "105": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "106": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "107": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "108": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "109": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "110": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "111": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "112": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "113": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "114": {
+                    "has_basmala": true,
+                    "verse_count": 7
+                }
+            }
+        },
+        "Shouba": {
+            "path": "Written/Shouba",
+            "basmala_text": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+            "surah_info": {
+                "1": {
+                    "has_basmala": false,
+                    "verse_count": 7
+                },
+                "2": {
+                    "has_basmala": true,
+                    "verse_count": 286
+                },
+                "3": {
+                    "has_basmala": true,
+                    "verse_count": 200
+                },
+                "4": {
+                    "has_basmala": true,
+                    "verse_count": 176
+                },
+                "5": {
+                    "has_basmala": true,
+                    "verse_count": 120
+                },
+                "6": {
+                    "has_basmala": true,
+                    "verse_count": 165
+                },
+                "7": {
+                    "has_basmala": true,
+                    "verse_count": 206
+                },
+                "8": {
+                    "has_basmala": true,
+                    "verse_count": 75
+                },
+                "9": {
+                    "has_basmala": false,
+                    "verse_count": 129
+                },
+                "10": {
+                    "has_basmala": true,
+                    "verse_count": 109
+                },
+                "11": {
+                    "has_basmala": true,
+                    "verse_count": 123
+                },
+                "12": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "13": {
+                    "has_basmala": true,
+                    "verse_count": 43
+                },
+                "14": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "15": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "16": {
+                    "has_basmala": true,
+                    "verse_count": 128
+                },
+                "17": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "18": {
+                    "has_basmala": true,
+                    "verse_count": 110
+                },
+                "19": {
+                    "has_basmala": true,
+                    "verse_count": 98
+                },
+                "20": {
+                    "has_basmala": true,
+                    "verse_count": 135
+                },
+                "21": {
+                    "has_basmala": true,
+                    "verse_count": 112
+                },
+                "22": {
+                    "has_basmala": true,
+                    "verse_count": 78
+                },
+                "23": {
+                    "has_basmala": true,
+                    "verse_count": 118
+                },
+                "24": {
+                    "has_basmala": true,
+                    "verse_count": 64
+                },
+                "25": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "26": {
+                    "has_basmala": true,
+                    "verse_count": 227
+                },
+                "27": {
+                    "has_basmala": true,
+                    "verse_count": 93
+                },
+                "28": {
+                    "has_basmala": true,
+                    "verse_count": 88
+                },
+                "29": {
+                    "has_basmala": true,
+                    "verse_count": 69
+                },
+                "30": {
+                    "has_basmala": true,
+                    "verse_count": 60
+                },
+                "31": {
+                    "has_basmala": true,
+                    "verse_count": 34
+                },
+                "32": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "33": {
+                    "has_basmala": true,
+                    "verse_count": 73
+                },
+                "34": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "35": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "36": {
+                    "has_basmala": true,
+                    "verse_count": 83
+                },
+                "37": {
+                    "has_basmala": true,
+                    "verse_count": 182
+                },
+                "38": {
+                    "has_basmala": true,
+                    "verse_count": 88
+                },
+                "39": {
+                    "has_basmala": true,
+                    "verse_count": 75
+                },
+                "40": {
+                    "has_basmala": true,
+                    "verse_count": 85
+                },
+                "41": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "42": {
+                    "has_basmala": true,
+                    "verse_count": 53
+                },
+                "43": {
+                    "has_basmala": true,
+                    "verse_count": 89
+                },
+                "44": {
+                    "has_basmala": true,
+                    "verse_count": 59
+                },
+                "45": {
+                    "has_basmala": true,
+                    "verse_count": 37
+                },
+                "46": {
+                    "has_basmala": true,
+                    "verse_count": 35
+                },
+                "47": {
+                    "has_basmala": true,
+                    "verse_count": 38
+                },
+                "48": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "49": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "50": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "51": {
+                    "has_basmala": true,
+                    "verse_count": 60
+                },
+                "52": {
+                    "has_basmala": true,
+                    "verse_count": 49
+                },
+                "53": {
+                    "has_basmala": true,
+                    "verse_count": 62
+                },
+                "54": {
+                    "has_basmala": true,
+                    "verse_count": 55
+                },
+                "55": {
+                    "has_basmala": true,
+                    "verse_count": 78
+                },
+                "56": {
+                    "has_basmala": true,
+                    "verse_count": 96
+                },
+                "57": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "58": {
+                    "has_basmala": true,
+                    "verse_count": 22
+                },
+                "59": {
+                    "has_basmala": true,
+                    "verse_count": 24
+                },
+                "60": {
+                    "has_basmala": true,
+                    "verse_count": 13
+                },
+                "61": {
+                    "has_basmala": true,
+                    "verse_count": 14
+                },
+                "62": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "63": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "64": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "65": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "66": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "67": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "68": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "69": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "70": {
+                    "has_basmala": true,
+                    "verse_count": 44
+                },
+                "71": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "72": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "73": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "74": {
+                    "has_basmala": true,
+                    "verse_count": 56
+                },
+                "75": {
+                    "has_basmala": true,
+                    "verse_count": 40
+                },
+                "76": {
+                    "has_basmala": true,
+                    "verse_count": 31
+                },
+                "77": {
+                    "has_basmala": true,
+                    "verse_count": 50
+                },
+                "78": {
+                    "has_basmala": true,
+                    "verse_count": 40
+                },
+                "79": {
+                    "has_basmala": true,
+                    "verse_count": 46
+                },
+                "80": {
+                    "has_basmala": true,
+                    "verse_count": 42
+                },
+                "81": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "82": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "83": {
+                    "has_basmala": true,
+                    "verse_count": 36
+                },
+                "84": {
+                    "has_basmala": true,
+                    "verse_count": 25
+                },
+                "85": {
+                    "has_basmala": true,
+                    "verse_count": 22
+                },
+                "86": {
+                    "has_basmala": true,
+                    "verse_count": 17
+                },
+                "87": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "88": {
+                    "has_basmala": true,
+                    "verse_count": 26
+                },
+                "89": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "90": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "91": {
+                    "has_basmala": true,
+                    "verse_count": 15
+                },
+                "92": {
+                    "has_basmala": true,
+                    "verse_count": 21
+                },
+                "93": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "94": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "95": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "96": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "97": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "98": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "99": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "100": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "101": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "102": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "103": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "104": {
+                    "has_basmala": true,
+                    "verse_count": 9
+                },
+                "105": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "106": {
+                    "has_basmala": true,
+                    "verse_count": 4
+                },
+                "107": {
+                    "has_basmala": true,
+                    "verse_count": 7
+                },
+                "108": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "109": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "110": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "111": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "112": {
+                    "has_basmala": true,
+                    "verse_count": 4
+                },
+                "113": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "114": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                }
+            }
+        },
+        "Soosi": {
+            "path": "Written/Soosi",
+            "basmala_text": "بِسۡمِ اِ۬للَّهِ اِ۬لرَّحۡمَٰنِ اِ۬لرَّحِيمِ",
+            "surah_info": {
+                "1": {
+                    "has_basmala": true,
+                    "verse_count": 7
+                },
+                "2": {
+                    "has_basmala": true,
+                    "verse_count": 285
+                },
+                "3": {
+                    "has_basmala": true,
+                    "verse_count": 200
+                },
+                "4": {
+                    "has_basmala": true,
+                    "verse_count": 175
+                },
+                "5": {
+                    "has_basmala": true,
+                    "verse_count": 122
+                },
+                "6": {
+                    "has_basmala": true,
+                    "verse_count": 167
+                },
+                "7": {
+                    "has_basmala": true,
+                    "verse_count": 206
+                },
+                "8": {
+                    "has_basmala": true,
+                    "verse_count": 76
+                },
+                "9": {
+                    "has_basmala": false,
+                    "verse_count": 130
+                },
+                "10": {
+                    "has_basmala": true,
+                    "verse_count": 109
+                },
+                "11": {
+                    "has_basmala": true,
+                    "verse_count": 122
+                },
+                "12": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "13": {
+                    "has_basmala": true,
+                    "verse_count": 44
+                },
+                "14": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "15": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "16": {
+                    "has_basmala": true,
+                    "verse_count": 128
+                },
+                "17": {
+                    "has_basmala": true,
+                    "verse_count": 110
+                },
+                "18": {
+                    "has_basmala": true,
+                    "verse_count": 105
+                },
+                "19": {
+                    "has_basmala": true,
+                    "verse_count": 98
+                },
+                "20": {
+                    "has_basmala": true,
+                    "verse_count": 134
+                },
+                "21": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "22": {
+                    "has_basmala": true,
+                    "verse_count": 76
+                },
+                "23": {
+                    "has_basmala": true,
+                    "verse_count": 119
+                },
+                "24": {
+                    "has_basmala": true,
+                    "verse_count": 62
+                },
+                "25": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "26": {
+                    "has_basmala": true,
+                    "verse_count": 227
+                },
+                "27": {
+                    "has_basmala": true,
+                    "verse_count": 95
+                },
+                "28": {
+                    "has_basmala": true,
+                    "verse_count": 88
+                },
+                "29": {
+                    "has_basmala": true,
+                    "verse_count": 69
+                },
+                "30": {
+                    "has_basmala": true,
+                    "verse_count": 60
+                },
+                "31": {
+                    "has_basmala": true,
+                    "verse_count": 33
+                },
+                "32": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "33": {
+                    "has_basmala": true,
+                    "verse_count": 73
+                },
+                "34": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "35": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "36": {
+                    "has_basmala": true,
+                    "verse_count": 82
+                },
+                "37": {
+                    "has_basmala": true,
+                    "verse_count": 182
+                },
+                "38": {
+                    "has_basmala": true,
+                    "verse_count": 86
+                },
+                "39": {
+                    "has_basmala": true,
+                    "verse_count": 72
+                },
+                "40": {
+                    "has_basmala": true,
+                    "verse_count": 84
+                },
+                "41": {
+                    "has_basmala": true,
+                    "verse_count": 53
+                },
+                "42": {
+                    "has_basmala": true,
+                    "verse_count": 50
+                },
+                "43": {
+                    "has_basmala": true,
+                    "verse_count": 89
+                },
+                "44": {
+                    "has_basmala": true,
+                    "verse_count": 56
+                },
+                "45": {
+                    "has_basmala": true,
+                    "verse_count": 36
+                },
+                "46": {
+                    "has_basmala": true,
+                    "verse_count": 34
+                },
+                "47": {
+                    "has_basmala": true,
+                    "verse_count": 39
+                },
+                "48": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "49": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "50": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "51": {
+                    "has_basmala": true,
+                    "verse_count": 60
+                },
+                "52": {
+                    "has_basmala": true,
+                    "verse_count": 47
+                },
+                "53": {
+                    "has_basmala": true,
+                    "verse_count": 61
+                },
+                "54": {
+                    "has_basmala": true,
+                    "verse_count": 55
+                },
+                "55": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "56": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "57": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "58": {
+                    "has_basmala": true,
+                    "verse_count": 22
+                },
+                "59": {
+                    "has_basmala": true,
+                    "verse_count": 24
+                },
+                "60": {
+                    "has_basmala": true,
+                    "verse_count": 13
+                },
+                "61": {
+                    "has_basmala": true,
+                    "verse_count": 14
+                },
+                "62": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "63": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "64": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "65": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "66": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "67": {
+                    "has_basmala": true,
+                    "verse_count": 31
+                },
+                "68": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "69": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "70": {
+                    "has_basmala": true,
+                    "verse_count": 44
+                },
+                "71": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "72": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "73": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "74": {
+                    "has_basmala": true,
+                    "verse_count": 56
+                },
+                "75": {
+                    "has_basmala": true,
+                    "verse_count": 39
+                },
+                "76": {
+                    "has_basmala": true,
+                    "verse_count": 31
+                },
+                "77": {
+                    "has_basmala": true,
+                    "verse_count": 50
+                },
+                "78": {
+                    "has_basmala": true,
+                    "verse_count": 40
+                },
+                "79": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "80": {
+                    "has_basmala": true,
+                    "verse_count": 42
+                },
+                "81": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "82": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "83": {
+                    "has_basmala": true,
+                    "verse_count": 36
+                },
+                "84": {
+                    "has_basmala": true,
+                    "verse_count": 25
+                },
+                "85": {
+                    "has_basmala": true,
+                    "verse_count": 22
+                },
+                "86": {
+                    "has_basmala": true,
+                    "verse_count": 16
+                },
+                "87": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "88": {
+                    "has_basmala": true,
+                    "verse_count": 26
+                },
+                "89": {
+                    "has_basmala": true,
+                    "verse_count": 32
+                },
+                "90": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "91": {
+                    "has_basmala": true,
+                    "verse_count": 16
+                },
+                "92": {
+                    "has_basmala": true,
+                    "verse_count": 21
+                },
+                "93": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "94": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "95": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "96": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "97": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "98": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "99": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "100": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "101": {
+                    "has_basmala": true,
+                    "verse_count": 10
+                },
+                "102": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "103": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "104": {
+                    "has_basmala": true,
+                    "verse_count": 9
+                },
+                "105": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "106": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "107": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "108": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "109": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "110": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "111": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "112": {
+                    "has_basmala": true,
+                    "verse_count": 4
+                },
+                "113": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "114": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                }
+            }
+        },
+        "Warsh": {
+            "path": "Written/Warsh",
+            "basmala_text": "بِسْمِ اِ۬للَّهِ اِ۬لرَّحْمَٰنِ اِ۬لرَّحِيمِ",
+            "surah_info": {
+                "1": {
+                    "has_basmala": true,
+                    "verse_count": 7
+                },
+                "2": {
+                    "has_basmala": true,
+                    "verse_count": 285
+                },
+                "3": {
+                    "has_basmala": true,
+                    "verse_count": 200
+                },
+                "4": {
+                    "has_basmala": true,
+                    "verse_count": 175
+                },
+                "5": {
+                    "has_basmala": true,
+                    "verse_count": 122
+                },
+                "6": {
+                    "has_basmala": true,
+                    "verse_count": 167
+                },
+                "7": {
+                    "has_basmala": true,
+                    "verse_count": 206
+                },
+                "8": {
+                    "has_basmala": true,
+                    "verse_count": 76
+                },
+                "9": {
+                    "has_basmala": false,
+                    "verse_count": 130
+                },
+                "10": {
+                    "has_basmala": true,
+                    "verse_count": 109
+                },
+                "11": {
+                    "has_basmala": true,
+                    "verse_count": 121
+                },
+                "12": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "13": {
+                    "has_basmala": true,
+                    "verse_count": 44
+                },
+                "14": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "15": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "16": {
+                    "has_basmala": true,
+                    "verse_count": 128
+                },
+                "17": {
+                    "has_basmala": true,
+                    "verse_count": 110
+                },
+                "18": {
+                    "has_basmala": true,
+                    "verse_count": 105
+                },
+                "19": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "20": {
+                    "has_basmala": true,
+                    "verse_count": 134
+                },
+                "21": {
+                    "has_basmala": true,
+                    "verse_count": 111
+                },
+                "22": {
+                    "has_basmala": true,
+                    "verse_count": 76
+                },
+                "23": {
+                    "has_basmala": true,
+                    "verse_count": 119
+                },
+                "24": {
+                    "has_basmala": true,
+                    "verse_count": 62
+                },
+                "25": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "26": {
+                    "has_basmala": true,
+                    "verse_count": 226
+                },
+                "27": {
+                    "has_basmala": true,
+                    "verse_count": 95
+                },
+                "28": {
+                    "has_basmala": true,
+                    "verse_count": 88
+                },
+                "29": {
+                    "has_basmala": true,
+                    "verse_count": 69
+                },
+                "30": {
+                    "has_basmala": true,
+                    "verse_count": 59
+                },
+                "31": {
+                    "has_basmala": true,
+                    "verse_count": 33
+                },
+                "32": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "33": {
+                    "has_basmala": true,
+                    "verse_count": 73
+                },
+                "34": {
+                    "has_basmala": true,
+                    "verse_count": 54
+                },
+                "35": {
+                    "has_basmala": true,
+                    "verse_count": 46
+                },
+                "36": {
+                    "has_basmala": true,
+                    "verse_count": 82
+                },
+                "37": {
+                    "has_basmala": true,
+                    "verse_count": 182
+                },
+                "38": {
+                    "has_basmala": true,
+                    "verse_count": 86
+                },
+                "39": {
+                    "has_basmala": true,
+                    "verse_count": 72
+                },
+                "40": {
+                    "has_basmala": true,
+                    "verse_count": 84
+                },
+                "41": {
+                    "has_basmala": true,
+                    "verse_count": 53
+                },
+                "42": {
+                    "has_basmala": true,
+                    "verse_count": 50
+                },
+                "43": {
+                    "has_basmala": true,
+                    "verse_count": 89
+                },
+                "44": {
+                    "has_basmala": true,
+                    "verse_count": 56
+                },
+                "45": {
+                    "has_basmala": true,
+                    "verse_count": 36
+                },
+                "46": {
+                    "has_basmala": true,
+                    "verse_count": 34
+                },
+                "47": {
+                    "has_basmala": true,
+                    "verse_count": 39
+                },
+                "48": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "49": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "50": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "51": {
+                    "has_basmala": true,
+                    "verse_count": 60
+                },
+                "52": {
+                    "has_basmala": true,
+                    "verse_count": 47
+                },
+                "53": {
+                    "has_basmala": true,
+                    "verse_count": 61
+                },
+                "54": {
+                    "has_basmala": true,
+                    "verse_count": 55
+                },
+                "55": {
+                    "has_basmala": true,
+                    "verse_count": 77
+                },
+                "56": {
+                    "has_basmala": true,
+                    "verse_count": 99
+                },
+                "57": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "58": {
+                    "has_basmala": true,
+                    "verse_count": 21
+                },
+                "59": {
+                    "has_basmala": true,
+                    "verse_count": 24
+                },
+                "60": {
+                    "has_basmala": true,
+                    "verse_count": 13
+                },
+                "61": {
+                    "has_basmala": true,
+                    "verse_count": 14
+                },
+                "62": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "63": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "64": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "65": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "66": {
+                    "has_basmala": true,
+                    "verse_count": 12
+                },
+                "67": {
+                    "has_basmala": true,
+                    "verse_count": 31
+                },
+                "68": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "69": {
+                    "has_basmala": true,
+                    "verse_count": 52
+                },
+                "70": {
+                    "has_basmala": true,
+                    "verse_count": 44
+                },
+                "71": {
+                    "has_basmala": true,
+                    "verse_count": 30
+                },
+                "72": {
+                    "has_basmala": true,
+                    "verse_count": 28
+                },
+                "73": {
+                    "has_basmala": true,
+                    "verse_count": 18
+                },
+                "74": {
+                    "has_basmala": true,
+                    "verse_count": 55
+                },
+                "75": {
+                    "has_basmala": true,
+                    "verse_count": 39
+                },
+                "76": {
+                    "has_basmala": true,
+                    "verse_count": 31
+                },
+                "77": {
+                    "has_basmala": true,
+                    "verse_count": 50
+                },
+                "78": {
+                    "has_basmala": true,
+                    "verse_count": 40
+                },
+                "79": {
+                    "has_basmala": true,
+                    "verse_count": 45
+                },
+                "80": {
+                    "has_basmala": true,
+                    "verse_count": 42
+                },
+                "81": {
+                    "has_basmala": true,
+                    "verse_count": 29
+                },
+                "82": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "83": {
+                    "has_basmala": true,
+                    "verse_count": 36
+                },
+                "84": {
+                    "has_basmala": true,
+                    "verse_count": 25
+                },
+                "85": {
+                    "has_basmala": true,
+                    "verse_count": 22
+                },
+                "86": {
+                    "has_basmala": true,
+                    "verse_count": 17
+                },
+                "87": {
+                    "has_basmala": true,
+                    "verse_count": 19
+                },
+                "88": {
+                    "has_basmala": true,
+                    "verse_count": 26
+                },
+                "89": {
+                    "has_basmala": true,
+                    "verse_count": 32
+                },
+                "90": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "91": {
+                    "has_basmala": true,
+                    "verse_count": 15
+                },
+                "92": {
+                    "has_basmala": true,
+                    "verse_count": 21
+                },
+                "93": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "94": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "95": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "96": {
+                    "has_basmala": true,
+                    "verse_count": 20
+                },
+                "97": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "98": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "99": {
+                    "has_basmala": true,
+                    "verse_count": 9
+                },
+                "100": {
+                    "has_basmala": true,
+                    "verse_count": 11
+                },
+                "101": {
+                    "has_basmala": true,
+                    "verse_count": 10
+                },
+                "102": {
+                    "has_basmala": true,
+                    "verse_count": 8
+                },
+                "103": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "104": {
+                    "has_basmala": true,
+                    "verse_count": 9
+                },
+                "105": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "106": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "107": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "108": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "109": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                },
+                "110": {
+                    "has_basmala": true,
+                    "verse_count": 3
+                },
+                "111": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "112": {
+                    "has_basmala": true,
+                    "verse_count": 4
+                },
+                "113": {
+                    "has_basmala": true,
+                    "verse_count": 5
+                },
+                "114": {
+                    "has_basmala": true,
+                    "verse_count": 6
+                }
+            }
+        },
+        "English": {
+            "path": "Written/English",
+            "basmala_text": "",
+            "translation": {
+                "name": "ClearQuran, Talal Itani",
+                "credit": "Translation by Talal Itani, ClearQuran.com",
+                "licence": "CC BY-ND 4.0",
+                "url": "https://clearquran.com"
+            },
+            "surah_info": {
+                "1": {
+                    "has_basmala": false,
+                    "verse_count": 7
+                },
+                "2": {
+                    "has_basmala": false,
+                    "verse_count": 286
+                },
+                "3": {
+                    "has_basmala": false,
+                    "verse_count": 200
+                },
+                "4": {
+                    "has_basmala": false,
+                    "verse_count": 176
+                },
+                "5": {
+                    "has_basmala": false,
+                    "verse_count": 120
+                },
+                "6": {
+                    "has_basmala": false,
+                    "verse_count": 165
+                },
+                "7": {
+                    "has_basmala": false,
+                    "verse_count": 206
+                },
+                "8": {
+                    "has_basmala": false,
+                    "verse_count": 75
+                },
+                "9": {
+                    "has_basmala": false,
+                    "verse_count": 129
+                },
+                "10": {
+                    "has_basmala": false,
+                    "verse_count": 109
+                },
+                "11": {
+                    "has_basmala": false,
+                    "verse_count": 123
+                },
+                "12": {
+                    "has_basmala": false,
+                    "verse_count": 111
+                },
+                "13": {
+                    "has_basmala": false,
+                    "verse_count": 43
+                },
+                "14": {
+                    "has_basmala": false,
+                    "verse_count": 52
+                },
+                "15": {
+                    "has_basmala": false,
+                    "verse_count": 99
+                },
+                "16": {
+                    "has_basmala": false,
+                    "verse_count": 128
+                },
+                "17": {
+                    "has_basmala": false,
+                    "verse_count": 111
+                },
+                "18": {
+                    "has_basmala": false,
+                    "verse_count": 110
+                },
+                "19": {
+                    "has_basmala": false,
+                    "verse_count": 98
+                },
+                "20": {
+                    "has_basmala": false,
+                    "verse_count": 135
+                },
+                "21": {
+                    "has_basmala": false,
+                    "verse_count": 112
+                },
+                "22": {
+                    "has_basmala": false,
+                    "verse_count": 78
+                },
+                "23": {
+                    "has_basmala": false,
+                    "verse_count": 118
+                },
+                "24": {
+                    "has_basmala": false,
+                    "verse_count": 64
+                },
+                "25": {
+                    "has_basmala": false,
+                    "verse_count": 77
+                },
+                "26": {
+                    "has_basmala": false,
+                    "verse_count": 227
+                },
+                "27": {
+                    "has_basmala": false,
+                    "verse_count": 93
+                },
+                "28": {
+                    "has_basmala": false,
+                    "verse_count": 88
+                },
+                "29": {
+                    "has_basmala": false,
+                    "verse_count": 69
+                },
+                "30": {
+                    "has_basmala": false,
+                    "verse_count": 60
+                },
+                "31": {
+                    "has_basmala": false,
+                    "verse_count": 34
+                },
+                "32": {
+                    "has_basmala": false,
+                    "verse_count": 30
+                },
+                "33": {
+                    "has_basmala": false,
+                    "verse_count": 73
+                },
+                "34": {
+                    "has_basmala": false,
+                    "verse_count": 54
+                },
+                "35": {
+                    "has_basmala": false,
+                    "verse_count": 45
+                },
+                "36": {
+                    "has_basmala": false,
+                    "verse_count": 83
+                },
+                "37": {
+                    "has_basmala": false,
+                    "verse_count": 182
+                },
+                "38": {
+                    "has_basmala": false,
+                    "verse_count": 88
+                },
+                "39": {
+                    "has_basmala": false,
+                    "verse_count": 75
+                },
+                "40": {
+                    "has_basmala": false,
+                    "verse_count": 85
+                },
+                "41": {
+                    "has_basmala": false,
+                    "verse_count": 54
+                },
+                "42": {
+                    "has_basmala": false,
+                    "verse_count": 53
+                },
+                "43": {
+                    "has_basmala": false,
+                    "verse_count": 89
+                },
+                "44": {
+                    "has_basmala": false,
+                    "verse_count": 59
+                },
+                "45": {
+                    "has_basmala": false,
+                    "verse_count": 37
+                },
+                "46": {
+                    "has_basmala": false,
+                    "verse_count": 35
+                },
+                "47": {
+                    "has_basmala": false,
+                    "verse_count": 38
+                },
+                "48": {
+                    "has_basmala": false,
+                    "verse_count": 29
+                },
+                "49": {
+                    "has_basmala": false,
+                    "verse_count": 18
+                },
+                "50": {
+                    "has_basmala": false,
+                    "verse_count": 45
+                },
+                "51": {
+                    "has_basmala": false,
+                    "verse_count": 60
+                },
+                "52": {
+                    "has_basmala": false,
+                    "verse_count": 49
+                },
+                "53": {
+                    "has_basmala": false,
+                    "verse_count": 62
+                },
+                "54": {
+                    "has_basmala": false,
+                    "verse_count": 55
+                },
+                "55": {
+                    "has_basmala": false,
+                    "verse_count": 78
+                },
+                "56": {
+                    "has_basmala": false,
+                    "verse_count": 96
+                },
+                "57": {
+                    "has_basmala": false,
+                    "verse_count": 29
+                },
+                "58": {
+                    "has_basmala": false,
+                    "verse_count": 22
+                },
+                "59": {
+                    "has_basmala": false,
+                    "verse_count": 24
+                },
+                "60": {
+                    "has_basmala": false,
+                    "verse_count": 13
+                },
+                "61": {
+                    "has_basmala": false,
+                    "verse_count": 14
+                },
+                "62": {
+                    "has_basmala": false,
+                    "verse_count": 11
+                },
+                "63": {
+                    "has_basmala": false,
+                    "verse_count": 11
+                },
+                "64": {
+                    "has_basmala": false,
+                    "verse_count": 18
+                },
+                "65": {
+                    "has_basmala": false,
+                    "verse_count": 12
+                },
+                "66": {
+                    "has_basmala": false,
+                    "verse_count": 12
+                },
+                "67": {
+                    "has_basmala": false,
+                    "verse_count": 30
+                },
+                "68": {
+                    "has_basmala": false,
+                    "verse_count": 52
+                },
+                "69": {
+                    "has_basmala": false,
+                    "verse_count": 52
+                },
+                "70": {
+                    "has_basmala": false,
+                    "verse_count": 44
+                },
+                "71": {
+                    "has_basmala": false,
+                    "verse_count": 28
+                },
+                "72": {
+                    "has_basmala": false,
+                    "verse_count": 28
+                },
+                "73": {
+                    "has_basmala": false,
+                    "verse_count": 20
+                },
+                "74": {
+                    "has_basmala": false,
+                    "verse_count": 56
+                },
+                "75": {
+                    "has_basmala": false,
+                    "verse_count": 40
+                },
+                "76": {
+                    "has_basmala": false,
+                    "verse_count": 31
+                },
+                "77": {
+                    "has_basmala": false,
+                    "verse_count": 50
+                },
+                "78": {
+                    "has_basmala": false,
+                    "verse_count": 40
+                },
+                "79": {
+                    "has_basmala": false,
+                    "verse_count": 46
+                },
+                "80": {
+                    "has_basmala": false,
+                    "verse_count": 42
+                },
+                "81": {
+                    "has_basmala": false,
+                    "verse_count": 29
+                },
+                "82": {
+                    "has_basmala": false,
+                    "verse_count": 19
+                },
+                "83": {
+                    "has_basmala": false,
+                    "verse_count": 36
+                },
+                "84": {
+                    "has_basmala": false,
+                    "verse_count": 25
+                },
+                "85": {
+                    "has_basmala": false,
+                    "verse_count": 22
+                },
+                "86": {
+                    "has_basmala": false,
+                    "verse_count": 17
+                },
+                "87": {
+                    "has_basmala": false,
+                    "verse_count": 19
+                },
+                "88": {
+                    "has_basmala": false,
+                    "verse_count": 26
+                },
+                "89": {
+                    "has_basmala": false,
+                    "verse_count": 30
+                },
+                "90": {
+                    "has_basmala": false,
+                    "verse_count": 20
+                },
+                "91": {
+                    "has_basmala": false,
+                    "verse_count": 15
+                },
+                "92": {
+                    "has_basmala": false,
+                    "verse_count": 21
+                },
+                "93": {
+                    "has_basmala": false,
+                    "verse_count": 11
+                },
+                "94": {
+                    "has_basmala": false,
+                    "verse_count": 8
+                },
+                "95": {
+                    "has_basmala": false,
+                    "verse_count": 8
+                },
+                "96": {
+                    "has_basmala": false,
+                    "verse_count": 19
+                },
+                "97": {
+                    "has_basmala": false,
+                    "verse_count": 5
+                },
+                "98": {
+                    "has_basmala": false,
+                    "verse_count": 8
+                },
+                "99": {
+                    "has_basmala": false,
+                    "verse_count": 8
+                },
+                "100": {
+                    "has_basmala": false,
+                    "verse_count": 11
+                },
+                "101": {
+                    "has_basmala": false,
+                    "verse_count": 11
+                },
+                "102": {
+                    "has_basmala": false,
+                    "verse_count": 8
+                },
+                "103": {
+                    "has_basmala": false,
+                    "verse_count": 3
+                },
+                "104": {
+                    "has_basmala": false,
+                    "verse_count": 9
+                },
+                "105": {
+                    "has_basmala": false,
+                    "verse_count": 5
+                },
+                "106": {
+                    "has_basmala": false,
+                    "verse_count": 4
+                },
+                "107": {
+                    "has_basmala": false,
+                    "verse_count": 7
+                },
+                "108": {
+                    "has_basmala": false,
+                    "verse_count": 3
+                },
+                "109": {
+                    "has_basmala": false,
+                    "verse_count": 6
+                },
+                "110": {
+                    "has_basmala": false,
+                    "verse_count": 3
+                },
+                "111": {
+                    "has_basmala": false,
+                    "verse_count": 5
+                },
+                "112": {
+                    "has_basmala": false,
+                    "verse_count": 4
+                },
+                "113": {
+                    "has_basmala": false,
+                    "verse_count": 5
+                },
+                "114": {
+                    "has_basmala": false,
+                    "verse_count": 6
+                }
+            }
+        }
+    }
+}

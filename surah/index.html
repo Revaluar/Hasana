@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <meta name="description" content="Every surah of the Quran, in Arabic with the English translation: 114 chapters with verse counts, Meccan or Medinan, and recitations on Hasana.">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f2e7">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131c17">
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <title>All 114 surahs of the Quran - Arabic and English - Hasana</title>
+
+    <link rel="canonical" href="https://hasana.ca/surah/">
+
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Hasana">
+    <meta property="og:title" content="All 114 surahs of the Quran - Arabic and English - Hasana">
+    <meta property="og:description" content="Every surah of the Quran, in Arabic with the English translation: 114 chapters with verse counts, Meccan or Medinan, and recitations on Hasana.">
+    <meta property="og:url" content="https://hasana.ca/surah/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="ar_AR">
+    <meta property="og:image" content="https://hasana.ca/icons/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="All 114 surahs of the Quran - Arabic and English - Hasana">
+    <meta name="twitter:description" content="Every surah of the Quran, in Arabic with the English translation: 114 chapters with verse counts, Meccan or Medinan, and recitations on Hasana.">
+    <meta name="twitter:image" content="https://hasana.ca/icons/og-image.png">
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "CollectionPage",
+            "name": "All 114 surahs of the Quran",
+            "url": "https://hasana.ca/surah/",
+            "description": "Every surah of the Quran, in Arabic with the English translation: 114 chapters with verse counts, Meccan or Medinan, and recitations on Hasana.",
+            "inLanguage": [
+                "ar",
+                "en"
+            ],
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "Hasana",
+                "url": "https://hasana.ca/"
+            }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Hasana",
+                    "item": "https://hasana.ca/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Surahs",
+                    "item": "https://hasana.ca/surah/"
+                }
+            ]
+        }
+    ]
+}
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script>
+        (function () {
+            try {
+                var t = localStorage.getItem('hasana-theme');
+                if (t === 'light' || t === 'dark') {
+                    document.documentElement.setAttribute('data-theme', t);
+                }
+            } catch (e) { /* storage unavailable */ }
+        })();
+    </script>
+
+    <!-- The UI faces only. Everything these pages need of the app's own CSS is
+         inlined below, so no app stylesheet is referenced and nothing here
+         holds a content-hashed filename. The var() fallbacks cover this
+         request failing; the mushaf face is self-hosted either way. -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Newsreader:opsz,wght@6..72,400..600&family=Schibsted+Grotesk:wght@400..600&display=swap">
+    <style>
+        @font-face {
+            font-family: 'MushafFont';
+            src: url('/fonts/ScheherazadeNew-Regular.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+            /* Never swap. A fallback face detaches Quranic marks from their
+               base letters; a brief invisible glyph is the lesser evil. */
+            font-display: block;
+        }
+
+        :root {
+            --color-paper: oklch(96.6% 0.009 85);
+            --color-ink: oklch(24.5% 0.012 85);
+            --color-ink-2: oklch(44% 0.011 85);
+            --color-line: oklch(87.5% 0.008 85);
+            --color-line-control: oklch(55% 0.012 85);
+            --color-accent: oklch(43% 0.09 160);
+            --color-accent-text: oklch(43% 0.09 160);
+            --font-display: 'Newsreader', Georgia, serif;
+            --font-body: 'Schibsted Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+            --arabic-fallback-font: 'Changa', sans-serif;
+            --text-sm: 0.875rem;
+            --text-md: 1.25rem;
+            --text-xl: 1.953rem;
+            --mushaf-size: clamp(1.4rem, 1.15rem + 1.2vw, 1.9rem);
+            --lh-tight: 1.2;
+            --lh-body: 1.6;
+            --lh-mushaf: 2.25;
+            --space-2xs: 4px;
+            --space-xs: 8px;
+            --space-sm: 12px;
+            --space-md: 16px;
+            --space-lg: 24px;
+            --space-xl: 40px;
+            color-scheme: light;
+        }
+
+        :root[data-theme="dark"] {
+            --color-paper: oklch(16.5% 0.014 160);
+            --color-ink: oklch(93% 0.008 90);
+            --color-ink-2: oklch(73% 0.008 90);
+            --color-line: oklch(26% 0.01 160);
+            --color-line-control: oklch(48% 0.012 160);
+            --color-accent: oklch(50% 0.08 160);
+            --color-accent-text: oklch(70% 0.09 160);
+            color-scheme: dark;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root:not([data-theme="light"]) {
+                --color-paper: oklch(16.5% 0.014 160);
+                --color-ink: oklch(93% 0.008 90);
+                --color-ink-2: oklch(73% 0.008 90);
+                --color-line: oklch(26% 0.01 160);
+                --color-line-control: oklch(48% 0.012 160);
+                --color-accent: oklch(50% 0.08 160);
+                --color-accent-text: oklch(70% 0.09 160);
+                color-scheme: dark;
+            }
+        }
+
+        *, *::before, *::after { box-sizing: border-box; }
+        body {
+            margin: 0;
+            min-height: 100dvh;
+            background-color: var(--color-paper);
+            color: var(--color-ink);
+            font-family: var(--font-body);
+            line-height: var(--lh-body);
+            font-synthesis: none;
+            text-wrap: pretty;
+        }
+        :focus-visible { outline: 2px solid var(--color-accent); outline-offset: 1px; }
+        a { color: var(--color-accent-text); }
+
+        .page { max-width: 48rem; margin-inline: auto; padding: var(--space-lg) var(--space-md) var(--space-2xl, 64px); }
+        .site-header { display: flex; align-items: center; gap: var(--space-sm); min-height: 64px; padding-bottom: var(--space-md); margin-bottom: var(--space-xl); border-bottom: 1px solid var(--color-line); }
+        .brand-mark { width: 22px; height: 22px; flex-shrink: 0; display: inline-flex; color: var(--color-accent); }
+        .brand-mark svg { width: 100%; height: 100%; }
+        .brand-title { font-family: var(--font-display); font-size: var(--text-md); margin: 0; }
+        .brand-title a { color: inherit; text-decoration: none; }
+
+        .surah-meta { color: var(--color-ink-2); font-size: var(--text-sm); }
+        h1 { font-family: var(--font-display); font-size: var(--text-xl); line-height: var(--lh-tight); margin: 0 0 var(--space-2xs); }
+        h1 .name-ar { font-family: 'MushafFont', var(--arabic-fallback-font); }
+        h2 { font-family: var(--font-display); font-size: var(--text-md); margin-top: var(--space-xl); margin-bottom: var(--space-sm); padding-bottom: var(--space-xs); border-bottom: 1px solid var(--color-line); }
+        .app-links { display: flex; flex-wrap: wrap; gap: var(--space-sm); margin-top: var(--space-md); }
+
+        .basmala, .arabic-text {
+            font-family: 'MushafFont', var(--arabic-fallback-font);
+            font-size: var(--mushaf-size);
+            line-height: var(--lh-mushaf);
+            text-align: justify;
+        }
+        .basmala { text-align: center; margin-bottom: var(--space-md); }
+
+        .verse-en { margin: 0 0 var(--space-sm); }
+        .verse-en .verse-num { display: inline-block; min-width: 2.2em; margin-inline-end: var(--space-xs); color: var(--color-accent-text); font-size: 0.75em; font-variant-numeric: tabular-nums; font-weight: 700; }
+        .english-credit-line { margin-top: var(--space-lg); padding-top: var(--space-sm); border-top: 1px solid var(--color-line-control); color: var(--color-ink-2); font-size: 0.8rem; }
+
+        .surah-nav { display: flex; justify-content: space-between; gap: var(--space-md); margin-top: var(--space-xl); padding-top: var(--space-md); border-top: 1px solid var(--color-line); }
+        .surah-index-list { list-style: none; padding: 0; display: grid; gap: var(--space-xs); grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); }
+        .surah-index-list .num { display: inline-block; min-width: 2.4em; color: var(--color-ink-2); font-variant-numeric: tabular-nums; }
+        .surah-index-list .name-ar { font-family: 'MushafFont', var(--arabic-fallback-font); }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header class="site-header">
+            <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="24" height="24">
+                            <path d="M5 20V11.5C5 7.9 8.1 5 12 5s7 2.9 7 6.5V20"/>
+                            <path d="M9 20v-6a3 3 0 0 1 6 0v6"/>
+                        </svg></span>
+            <!-- Not an h1: the surah name below is this page's only h1, so the
+                 outline stays h1 -> h2 (SEO-PLAN.md finding 11). -->
+            <p class="brand-title"><a href="/">Hasana</a></p>
+        </header>
+            <div class="static-surah">
+                <h1>All 114 surahs</h1>
+                <p class="surah-meta">Each page carries the full Arabic text in the Hafs reading and the full English translation.</p>
+                <ul class="surah-index-list">
+                    <li><a href="/surah/1-fatihah/"><span class="num">1</span>Al-Fatihah <span class="name-ar" lang="ar" dir="rtl">الفاتحة</span></a></li>
+                    <li><a href="/surah/2-baqarah/"><span class="num">2</span>Al-Baqarah <span class="name-ar" lang="ar" dir="rtl">البقرة</span></a></li>
+                    <li><a href="/surah/3-imran/"><span class="num">3</span>Al-'Imran <span class="name-ar" lang="ar" dir="rtl">آل عمران</span></a></li>
+                    <li><a href="/surah/4-nisa/"><span class="num">4</span>An-Nisa' <span class="name-ar" lang="ar" dir="rtl">النساء</span></a></li>
+                    <li><a href="/surah/5-maidah/"><span class="num">5</span>Al-Ma'idah <span class="name-ar" lang="ar" dir="rtl">المائدة</span></a></li>
+                    <li><a href="/surah/6-anam/"><span class="num">6</span>Al-An'am <span class="name-ar" lang="ar" dir="rtl">الأنعام</span></a></li>
+                    <li><a href="/surah/7-araf/"><span class="num">7</span>Al-A'raf <span class="name-ar" lang="ar" dir="rtl">الأعراف</span></a></li>
+                    <li><a href="/surah/8-anfal/"><span class="num">8</span>Al-Anfal <span class="name-ar" lang="ar" dir="rtl">الأنفال</span></a></li>
+                    <li><a href="/surah/9-tawbah/"><span class="num">9</span>At-Tawbah <span class="name-ar" lang="ar" dir="rtl">التوبة</span></a></li>
+                    <li><a href="/surah/10-yunus/"><span class="num">10</span>Yunus <span class="name-ar" lang="ar" dir="rtl">يونس</span></a></li>
+                    <li><a href="/surah/11-hud/"><span class="num">11</span>Hud <span class="name-ar" lang="ar" dir="rtl">هود</span></a></li>
+                    <li><a href="/surah/12-yusuf/"><span class="num">12</span>Yusuf <span class="name-ar" lang="ar" dir="rtl">يوسف</span></a></li>
+                    <li><a href="/surah/13-rad/"><span class="num">13</span>Ar-Ra'd <span class="name-ar" lang="ar" dir="rtl">الرعد</span></a></li>
+                    <li><a href="/surah/14-ibrahim/"><span class="num">14</span>Ibrahim <span class="name-ar" lang="ar" dir="rtl">ابراهيم</span></a></li>
+                    <li><a href="/surah/15-hijr/"><span class="num">15</span>Al-Hijr <span class="name-ar" lang="ar" dir="rtl">الحجر</span></a></li>
+                    <li><a href="/surah/16-nahl/"><span class="num">16</span>An-Nahl <span class="name-ar" lang="ar" dir="rtl">النحل</span></a></li>
+                    <li><a href="/surah/17-isra/"><span class="num">17</span>Al-Isra' <span class="name-ar" lang="ar" dir="rtl">الإسراء</span></a></li>
+                    <li><a href="/surah/18-kahf/"><span class="num">18</span>Al-Kahf <span class="name-ar" lang="ar" dir="rtl">الكهف</span></a></li>
+                    <li><a href="/surah/19-maryam/"><span class="num">19</span>Maryam <span class="name-ar" lang="ar" dir="rtl">مريم</span></a></li>
+                    <li><a href="/surah/20-taha/"><span class="num">20</span>Ta-Ha <span class="name-ar" lang="ar" dir="rtl">طه</span></a></li>
+                    <li><a href="/surah/21-anbiya/"><span class="num">21</span>Al-Anbiya' <span class="name-ar" lang="ar" dir="rtl">الأنبياء</span></a></li>
+                    <li><a href="/surah/22-hajj/"><span class="num">22</span>Al-Hajj <span class="name-ar" lang="ar" dir="rtl">الحج</span></a></li>
+                    <li><a href="/surah/23-muminun/"><span class="num">23</span>Al-Mu'minun <span class="name-ar" lang="ar" dir="rtl">المؤمنون</span></a></li>
+                    <li><a href="/surah/24-nur/"><span class="num">24</span>An-Nur <span class="name-ar" lang="ar" dir="rtl">النور</span></a></li>
+                    <li><a href="/surah/25-furqan/"><span class="num">25</span>Al-Furqan <span class="name-ar" lang="ar" dir="rtl">الفرقان</span></a></li>
+                    <li><a href="/surah/26-shuara/"><span class="num">26</span>Ash-Shu'ara' <span class="name-ar" lang="ar" dir="rtl">الشعراء</span></a></li>
+                    <li><a href="/surah/27-naml/"><span class="num">27</span>An-Naml <span class="name-ar" lang="ar" dir="rtl">النمل</span></a></li>
+                    <li><a href="/surah/28-qasas/"><span class="num">28</span>Al-Qasas <span class="name-ar" lang="ar" dir="rtl">القصص</span></a></li>
+                    <li><a href="/surah/29-ankabut/"><span class="num">29</span>Al-'Ankabut <span class="name-ar" lang="ar" dir="rtl">العنكبوت</span></a></li>
+                    <li><a href="/surah/30-rum/"><span class="num">30</span>Ar-Rum <span class="name-ar" lang="ar" dir="rtl">الروم</span></a></li>
+                    <li><a href="/surah/31-luqman/"><span class="num">31</span>Luqman <span class="name-ar" lang="ar" dir="rtl">لقمان</span></a></li>
+                    <li><a href="/surah/32-sajdah/"><span class="num">32</span>As-Sajdah <span class="name-ar" lang="ar" dir="rtl">السجدة</span></a></li>
+                    <li><a href="/surah/33-ahzab/"><span class="num">33</span>Al-Ahzab <span class="name-ar" lang="ar" dir="rtl">الأحزاب</span></a></li>
+                    <li><a href="/surah/34-saba/"><span class="num">34</span>Saba' <span class="name-ar" lang="ar" dir="rtl">سبأ</span></a></li>
+                    <li><a href="/surah/35-fatir/"><span class="num">35</span>Fatir <span class="name-ar" lang="ar" dir="rtl">فاطر</span></a></li>
+                    <li><a href="/surah/36-yasin/"><span class="num">36</span>Ya-Sin <span class="name-ar" lang="ar" dir="rtl">يس</span></a></li>
+                    <li><a href="/surah/37-saffat/"><span class="num">37</span>As-Saffat <span class="name-ar" lang="ar" dir="rtl">الصافات</span></a></li>
+                    <li><a href="/surah/38-sad/"><span class="num">38</span>Sad <span class="name-ar" lang="ar" dir="rtl">سورة ص</span></a></li>
+                    <li><a href="/surah/39-zumar/"><span class="num">39</span>Az-Zumar <span class="name-ar" lang="ar" dir="rtl">الزمر</span></a></li>
+                    <li><a href="/surah/40-ghafir/"><span class="num">40</span>Ghafir <span class="name-ar" lang="ar" dir="rtl">غافر</span></a></li>
+                    <li><a href="/surah/41-fussilat/"><span class="num">41</span>Fussilat <span class="name-ar" lang="ar" dir="rtl">فصلت</span></a></li>
+                    <li><a href="/surah/42-shura/"><span class="num">42</span>Ash-Shura <span class="name-ar" lang="ar" dir="rtl">الشورى</span></a></li>
+                    <li><a href="/surah/43-zukhruf/"><span class="num">43</span>Az-Zukhruf <span class="name-ar" lang="ar" dir="rtl">الزخرف</span></a></li>
+                    <li><a href="/surah/44-dukhan/"><span class="num">44</span>Ad-Dukhan <span class="name-ar" lang="ar" dir="rtl">الدخان</span></a></li>
+                    <li><a href="/surah/45-jathiyah/"><span class="num">45</span>Al-Jathiyah <span class="name-ar" lang="ar" dir="rtl">الجاثية</span></a></li>
+                    <li><a href="/surah/46-ahqaf/"><span class="num">46</span>Al-Ahqaf <span class="name-ar" lang="ar" dir="rtl">الأحقاف</span></a></li>
+                    <li><a href="/surah/47-muhammad/"><span class="num">47</span>Muhammad <span class="name-ar" lang="ar" dir="rtl">محمد</span></a></li>
+                    <li><a href="/surah/48-fath/"><span class="num">48</span>Al-Fath <span class="name-ar" lang="ar" dir="rtl">الفتح</span></a></li>
+                    <li><a href="/surah/49-hujurat/"><span class="num">49</span>Al-Hujurat <span class="name-ar" lang="ar" dir="rtl">الحجرات</span></a></li>
+                    <li><a href="/surah/50-qaf/"><span class="num">50</span>Qaf <span class="name-ar" lang="ar" dir="rtl">سورة ق</span></a></li>
+                    <li><a href="/surah/51-dhariyat/"><span class="num">51</span>Adh-Dhariyat <span class="name-ar" lang="ar" dir="rtl">الذاريات</span></a></li>
+                    <li><a href="/surah/52-tur/"><span class="num">52</span>At-Tur <span class="name-ar" lang="ar" dir="rtl">الطور</span></a></li>
+                    <li><a href="/surah/53-najm/"><span class="num">53</span>An-Najm <span class="name-ar" lang="ar" dir="rtl">النجم</span></a></li>
+                    <li><a href="/surah/54-qamar/"><span class="num">54</span>Al-Qamar <span class="name-ar" lang="ar" dir="rtl">القمر</span></a></li>
+                    <li><a href="/surah/55-rahman/"><span class="num">55</span>Ar-Rahman <span class="name-ar" lang="ar" dir="rtl">الرحمن</span></a></li>
+                    <li><a href="/surah/56-waqiah/"><span class="num">56</span>Al-Waqi'ah <span class="name-ar" lang="ar" dir="rtl">الواقعة</span></a></li>
+                    <li><a href="/surah/57-hadid/"><span class="num">57</span>Al-Hadid <span class="name-ar" lang="ar" dir="rtl">الحديد</span></a></li>
+                    <li><a href="/surah/58-mujadilah/"><span class="num">58</span>Al-Mujadilah <span class="name-ar" lang="ar" dir="rtl">المجادلة</span></a></li>
+                    <li><a href="/surah/59-hashr/"><span class="num">59</span>Al-Hashr <span class="name-ar" lang="ar" dir="rtl">الحشر</span></a></li>
+                    <li><a href="/surah/60-mumtahanah/"><span class="num">60</span>Al-Mumtahanah <span class="name-ar" lang="ar" dir="rtl">الممتحنة</span></a></li>
+                    <li><a href="/surah/61-saff/"><span class="num">61</span>As-Saff <span class="name-ar" lang="ar" dir="rtl">الصف</span></a></li>
+                    <li><a href="/surah/62-jumuah/"><span class="num">62</span>Al-Jumu'ah <span class="name-ar" lang="ar" dir="rtl">الجمعة</span></a></li>
+                    <li><a href="/surah/63-munafiqun/"><span class="num">63</span>Al-Munafiqun <span class="name-ar" lang="ar" dir="rtl">المنافقون</span></a></li>
+                    <li><a href="/surah/64-taghabun/"><span class="num">64</span>At-Taghabun <span class="name-ar" lang="ar" dir="rtl">التغابن</span></a></li>
+                    <li><a href="/surah/65-talaq/"><span class="num">65</span>At-Talaq <span class="name-ar" lang="ar" dir="rtl">الطلاق</span></a></li>
+                    <li><a href="/surah/66-tahrim/"><span class="num">66</span>At-Tahrim <span class="name-ar" lang="ar" dir="rtl">التحريم</span></a></li>
+                    <li><a href="/surah/67-mulk/"><span class="num">67</span>Al-Mulk <span class="name-ar" lang="ar" dir="rtl">الملك</span></a></li>
+                    <li><a href="/surah/68-qalam/"><span class="num">68</span>Al-Qalam <span class="name-ar" lang="ar" dir="rtl">القلم</span></a></li>
+                    <li><a href="/surah/69-haqqah/"><span class="num">69</span>Al-Haqqah <span class="name-ar" lang="ar" dir="rtl">الحاقة</span></a></li>
+                    <li><a href="/surah/70-maarij/"><span class="num">70</span>Al-Ma'arij <span class="name-ar" lang="ar" dir="rtl">المعارج</span></a></li>
+                    <li><a href="/surah/71-nuh/"><span class="num">71</span>Nuh <span class="name-ar" lang="ar" dir="rtl">نوح</span></a></li>
+                    <li><a href="/surah/72-jinn/"><span class="num">72</span>Al-Jinn <span class="name-ar" lang="ar" dir="rtl">الجن</span></a></li>
+                    <li><a href="/surah/73-muzzammil/"><span class="num">73</span>Al-Muzzammil <span class="name-ar" lang="ar" dir="rtl">المزمل</span></a></li>
+                    <li><a href="/surah/74-muddaththir/"><span class="num">74</span>Al-Muddaththir <span class="name-ar" lang="ar" dir="rtl">المدثر</span></a></li>
+                    <li><a href="/surah/75-qiyamah/"><span class="num">75</span>Al-Qiyamah <span class="name-ar" lang="ar" dir="rtl">القيامة</span></a></li>
+                    <li><a href="/surah/76-insan/"><span class="num">76</span>Al-Insan <span class="name-ar" lang="ar" dir="rtl">الإنسان</span></a></li>
+                    <li><a href="/surah/77-mursalat/"><span class="num">77</span>Al-Mursalat <span class="name-ar" lang="ar" dir="rtl">المرسلات</span></a></li>
+                    <li><a href="/surah/78-naba/"><span class="num">78</span>An-Naba' <span class="name-ar" lang="ar" dir="rtl">النبأ</span></a></li>
+                    <li><a href="/surah/79-naziat/"><span class="num">79</span>An-Nazi'at <span class="name-ar" lang="ar" dir="rtl">النازعات</span></a></li>
+                    <li><a href="/surah/80-abasa/"><span class="num">80</span>'Abasa <span class="name-ar" lang="ar" dir="rtl">عبس</span></a></li>
+                    <li><a href="/surah/81-takwir/"><span class="num">81</span>At-Takwir <span class="name-ar" lang="ar" dir="rtl">التكوير</span></a></li>
+                    <li><a href="/surah/82-infitar/"><span class="num">82</span>Al-Infitar <span class="name-ar" lang="ar" dir="rtl">الإنفطار</span></a></li>
+                    <li><a href="/surah/83-mutaffifin/"><span class="num">83</span>Al-Mutaffifin <span class="name-ar" lang="ar" dir="rtl">المطففين</span></a></li>
+                    <li><a href="/surah/84-inshiqaq/"><span class="num">84</span>Al-Inshiqaq <span class="name-ar" lang="ar" dir="rtl">الانشقاق</span></a></li>
+                    <li><a href="/surah/85-buruj/"><span class="num">85</span>Al-Buruj <span class="name-ar" lang="ar" dir="rtl">البروج</span></a></li>
+                    <li><a href="/surah/86-tariq/"><span class="num">86</span>At-Tariq <span class="name-ar" lang="ar" dir="rtl">الطارق</span></a></li>
+                    <li><a href="/surah/87-ala/"><span class="num">87</span>Al-A'la <span class="name-ar" lang="ar" dir="rtl">الأعلى</span></a></li>
+                    <li><a href="/surah/88-ghashiyah/"><span class="num">88</span>Al-Ghashiyah <span class="name-ar" lang="ar" dir="rtl">الغاشية</span></a></li>
+                    <li><a href="/surah/89-fajr/"><span class="num">89</span>Al-Fajr <span class="name-ar" lang="ar" dir="rtl">الفجر</span></a></li>
+                    <li><a href="/surah/90-balad/"><span class="num">90</span>Al-Balad <span class="name-ar" lang="ar" dir="rtl">البلد</span></a></li>
+                    <li><a href="/surah/91-shams/"><span class="num">91</span>Ash-Shams <span class="name-ar" lang="ar" dir="rtl">الشمس</span></a></li>
+                    <li><a href="/surah/92-layl/"><span class="num">92</span>Al-Layl <span class="name-ar" lang="ar" dir="rtl">الليل</span></a></li>
+                    <li><a href="/surah/93-duha/"><span class="num">93</span>Ad-Duha <span class="name-ar" lang="ar" dir="rtl">الضحى</span></a></li>
+                    <li><a href="/surah/94-sharh/"><span class="num">94</span>Ash-Sharh <span class="name-ar" lang="ar" dir="rtl">الشرح</span></a></li>
+                    <li><a href="/surah/95-tin/"><span class="num">95</span>At-Tin <span class="name-ar" lang="ar" dir="rtl">التين</span></a></li>
+                    <li><a href="/surah/96-alaq/"><span class="num">96</span>Al-'Alaq <span class="name-ar" lang="ar" dir="rtl">العلق</span></a></li>
+                    <li><a href="/surah/97-qadr/"><span class="num">97</span>Al-Qadr <span class="name-ar" lang="ar" dir="rtl">القدر</span></a></li>
+                    <li><a href="/surah/98-bayyinah/"><span class="num">98</span>Al-Bayyinah <span class="name-ar" lang="ar" dir="rtl">البينة</span></a></li>
+                    <li><a href="/surah/99-zalzalah/"><span class="num">99</span>Az-Zalzalah <span class="name-ar" lang="ar" dir="rtl">الزلزلة</span></a></li>
+                    <li><a href="/surah/100-adiyat/"><span class="num">100</span>Al-'Adiyat <span class="name-ar" lang="ar" dir="rtl">العاديات</span></a></li>
+                    <li><a href="/surah/101-qariah/"><span class="num">101</span>Al-Qari'ah <span class="name-ar" lang="ar" dir="rtl">القارعة</span></a></li>
+                    <li><a href="/surah/102-takathur/"><span class="num">102</span>At-Takathur <span class="name-ar" lang="ar" dir="rtl">التكاثر</span></a></li>
+                    <li><a href="/surah/103-asr/"><span class="num">103</span>Al-'Asr <span class="name-ar" lang="ar" dir="rtl">العصر</span></a></li>
+                    <li><a href="/surah/104-humazah/"><span class="num">104</span>Al-Humazah <span class="name-ar" lang="ar" dir="rtl">الهمزة</span></a></li>
+                    <li><a href="/surah/105-fil/"><span class="num">105</span>Al-Fil <span class="name-ar" lang="ar" dir="rtl">الفيل</span></a></li>
+                    <li><a href="/surah/106-quraysh/"><span class="num">106</span>Quraysh <span class="name-ar" lang="ar" dir="rtl">قريش</span></a></li>
+                    <li><a href="/surah/107-maun/"><span class="num">107</span>Al-Ma'un <span class="name-ar" lang="ar" dir="rtl">الماعون</span></a></li>
+                    <li><a href="/surah/108-kawthar/"><span class="num">108</span>Al-Kawthar <span class="name-ar" lang="ar" dir="rtl">الكوثر</span></a></li>
+                    <li><a href="/surah/109-kafirun/"><span class="num">109</span>Al-Kafirun <span class="name-ar" lang="ar" dir="rtl">الكافرون</span></a></li>
+                    <li><a href="/surah/110-nasr/"><span class="num">110</span>An-Nasr <span class="name-ar" lang="ar" dir="rtl">النصر</span></a></li>
+                    <li><a href="/surah/111-masad/"><span class="num">111</span>Al-Masad <span class="name-ar" lang="ar" dir="rtl">المسد</span></a></li>
+                    <li><a href="/surah/112-ikhlas/"><span class="num">112</span>Al-Ikhlas <span class="name-ar" lang="ar" dir="rtl">الإخلاص</span></a></li>
+                    <li><a href="/surah/113-falaq/"><span class="num">113</span>Al-Falaq <span class="name-ar" lang="ar" dir="rtl">الفلق</span></a></li>
+                    <li><a href="/surah/114-nas/"><span class="num">114</span>An-Nas <span class="name-ar" lang="ar" dir="rtl">الناس</span></a></li>
+                </ul>
+            </div>
+    </div>
+</body>
+</html>
